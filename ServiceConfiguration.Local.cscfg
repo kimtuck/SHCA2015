@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="SHCA2015" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2014-01.2.3">
+  <Role name="SHCA2015WebRole">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="rhanson" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEEts752HSKmzRNxxZ8sKTeMwDQYJKoZIhvcNAQEBBQAEggEAF0a+2clbA+8RY+FGyoc7C6TfSZaeAXc5HxNjySgCz9oFCwwTAckcho7m49SJc+VCaX8CV9bKIrvof3DOekGYZ/+qZtPmxQx2DwSsu+vUpedNk4U9Jn+Rf7MjKMDbV4PtjP2mt1m78yOPcp3HnftQpStb9cDhIZJ2Slwq7RNZjZbSpJkBAbju4/QBW/5d7HnlM9KD0JEgHMWXyZcO0jwRXjKAeBytXoYytDuDhL35XgxM/4h04E2AZTkxv3JZ/6GsL1N4vUba+ueGyBchxHR93v5MUraE70o1ZI6IzX5EVhLvHNhicNjW4ICq7Mjq9ZzuJr91tZZUw3oFFD5Z6yse9zAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECNq361ac/PpfgBA8s/std/eynFE/HPCnkCuR" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2016-07-01T23:59:59.0000000-05:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="775B8FA781E5E65CA75D64BABD084874D7CFB105" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>
