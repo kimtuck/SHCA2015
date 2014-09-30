@@ -1,0 +1,53 @@
+@mixin icon-home {
+  @extend .fa;
+  @extend .fa-home;
+}
+
+.icon-home {
+  @include icon-home;
+}
+
+@mixin icon-hotel {
+  @extend .fa;
+  @extend .fa-suitcase;
+}
+
+.icon-hotels {
+  @include icon-hotel;
+}
+
+@mixin icon-attractions {
+  @extend .fa;
+  @extend .fa-eye;
+}
+
+.icon-attractions, .icon-area {
+  @include icon-attractions;
+}
+
+@mixin icon-schedule {
+  @extend .fa;
+  @extend .fa-calendar;
+}
+
+.icon-schedule {
+  @include icon-schedule;
+}
+
+@mixin icon-committees {
+  @extend .fa;
+  @extend .fa-user;
+}
+
+.icon-committees {
+  @include icon-committees;
+}
+
+@mixin icon-judges {
+  @extend .fa;
+  @extend .fa-trophy;
+}
+
+.icon-judges {
+  @include icon-judges;
+}

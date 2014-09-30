@@ -1,0 +1,9 @@
+.menu ul {
+  list-style: none;
+  border: solid 10px #cccccc; }
+  .menu ul li {
+    width: 10em;
+    padding: 5px;
+    border: solid 10px #cccccc; }
+
+/*# sourceMappingURL=_menu.css.map */

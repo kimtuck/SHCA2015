@@ -1,9 +1,50 @@
-﻿@font-face {
+﻿// FontAwesome
+@import "FontAwesome/assets/stylesheets/font-awesome";
+
+@import "variables";
+
+@import "icons";
+@import "page";
+@import "home";
+@import "menu";
+
+@import "siblogo";
+.dateinfo {
+  display: inline-block;
+  width: auto;
+  margin: 0 20px 0 20px;
+  text-align: center;
+  font-size: 3.5em;
+  color: rgb(22, 145, 190);
+  line-height: 2.5em;
+
+}
+
+@font-face {
   font-family: 'Planet Benson 2';
   src: url('http://www.fontsaddict.com/fontface/planet-benson-2.ttf');
 }
 
-body {
+.shcalogo img {
+  width: 300px;
+  height: 300px;
+}
+
+// stupid bootstrap
+img {
+  vertical-align: top;
+}
+.container {
+  width: auto;
+}
+ul, ol {
+  margin: 0;
+}
+
+.site {
+    width: 80%;
+    margin: 0 auto;
+    background-color: $background-color;
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -12,6 +53,7 @@ body {
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    background-color: $background-color;
 }
 
 /* Set width on the form input elements since they're 100% wide by default */
@@ -21,38 +63,3 @@ textarea {
     max-width: 280px;
 }
 
-.SibLogo {
-    font-size: 3em;
-    margin: 20px 0px 0px 30px;
-    font-family: 'Planet Benson 2',Arial;
-
-    font-weight:bold; text-shadow: 2px 2px cyan;
-
-
-
-    .line1 { 
-        position: relative;
-        display: inline-block;
-        z-index: 2;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .line2 { 
-        display: block;
-        padding-left: 5em;
-        z-index: 2;
-    }
-
-    .hat {
-        position: absolute;
-        right: -10.6px;
-        top: -19.6px; 
-    }    
-
-    .feathers {
-        position: absolute;
-        left: 0px;
-        top: -15.0px;
-        z-index: 1;
-    }    
-}

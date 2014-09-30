@@ -1,0 +1,10 @@
+<div class="nav">
+    <ul>
+        <li ng-repeat="item in MenuService.MenuItems" ng-click="onClick(item.value)">
+            <div href="#" title="">
+                <span class="icon" ng-class="item.icon"></span>
+                <span>{{item.label}}</span>
+            </div>
+        </li>
+    </ul>
+</div>

@@ -1,21 +1,53 @@
-﻿<!DOCTYPE html>
+﻿@using Helpers;
+
+
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHCA 2015 National</title>
-    @Styles.Render("~/Content/css")
-    <link href="~/stylesheets/site.css" rel="stylesheet" />
+    @Styles.Render("~/sass/css")
     @Scripts.Render("~/bundles/modernizr")
 
+        <script src="~/UI/Vendor/lodash/lodash.js"></script>
+        <script src="~/UI/Vendor/jquery/jquery.min.js"></script>
+        <script src="~/UI/Vendor/bootstrap/bootstrap.js"></script>
+        <link href="~/UI/Vendor/bootstrap/bootstrap.css" rel="stylesheet" />
+        <!-- <link href="img/fav.png" rel="icon" type="image/x-icon" /> -->
+
+        <!-- scripts -->
+        <script src="~/UI/Vendor/jquery-ui-1.10.4/js/jquery-ui-1.10.4.min.js"></script>
+        <link type="text/css" href="~/UI/Vendor/jquery-ui-1.10.4/css/ui-lightness/jquery-ui-1.10.4.min.css" rel='stylesheet' />
+
+        <script src="~/UI/Vendor/Angular-1.2.0/angular.js"></script>
+        <script src="~/UI/Vendor/Angular-1.2.0/angular-route.js"></script>
+        <script src="~/UI/Vendor/Angular-1.2.0/angular-resource.js"></script>
+
+        <script src="~/UI/App/shca.js"></script>
+        <script src="~/UI/Services/MenuService.js"></script>
+        <script src="~/UI/Services/RouteService.js"></script>
+
+        <script src="~/UI/Directives/Logo/Logo.js"></script>
+        <script src="~/UI/Directives/Menu/Menu.js"></script>
+        <script src="~/UI/Directives/home-header/home-header.js"></script>
+
+        <script src="~/UI/Pages/GenericPageController.js"></script>
+
+    @Html.Raw(JSONDataHelper.Data("Pages", ViewBag.Pages))
+    <link href="~/sass/site.css" rel="stylesheet" />
+
+
 </head>
-<body>
+<body ng-app="app" class="site">
     <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - SHCA</p>
-        </footer>
+         <div ng-view></div>
     </div>
+    @RenderBody()
+    <hr />
+    <footer>
+        <p>&copy; @DateTime.Now.Year - SHCA
+</p>
+    </footer>
 </body>
 </html>

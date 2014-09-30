@@ -1,0 +1,23 @@
+$color1: #FFFDB3;
+$color2: #D9AB73;
+$color3: #8C6D46;
+$color4: #733E1F;
+$color5: #591D1D;
+
+$background-color: $color3;
+
+$body-width: 1000px;
+
+// menu
+$menu-border-color: $color2;
+$menu-border-width: 10px;
+$menu-button-width: 10em;
+$menu-button-padding: 1em;
+$menu-margin: 0em;
+$menu-width-plus-margin: 12em;
+$menu-button-background-color: $color3;
+$menu-button-background-color-hover: lighten($menu-button-background-color, 40%);
+$menu-button-background-color-active: darken($menu-button-background-color, 10%);
+
+
+

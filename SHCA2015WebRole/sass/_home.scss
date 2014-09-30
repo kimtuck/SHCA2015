@@ -1,0 +1,41 @@
+.home {
+  position: relative;
+
+  .SibLogo.homelogo {
+    width: 600px;
+    float: left;
+    padding-left: 100px;
+  };
+
+  .home-header {
+    margin-bottom: 60px;
+
+    .shcalogo {
+      img {
+      margin-top: 100px;
+      }
+    }
+
+    .dateinfo {
+    }
+    h1 {
+      font-size: 1.5em;
+      margin-bottom: 0.8em;
+    }
+    h3 {
+      font-size: 1.3em;
+      margin-bottom: 0.6em;
+
+    }
+    h2 {
+      color: black;
+      font-size: 1.1em;
+      line-height: 1.2em;
+      //font-face: serif;
+      span {
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+}
