@@ -202,6 +202,7 @@
     <Content Include="sass\compass\css3\site.css" />
     <Content Include="sass\compass\site.css" />
     <Content Include="sass\FontAwesome\assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="sass\site.css" />
     <Content Include="sass\_menu.css" />
     <Content Include="stylesheets\img\hat.png" />
     <Content Include="stylesheets\img\headdress.png" />
