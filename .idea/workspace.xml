@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06d5b400-8f40-4e29-b941-e0d7338a50b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/2015 National Flyer.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/2015 SHCA National Specialty Show Committee Chairs.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SHCA2015WebRole/fonts/DryGoodsNarrowSm.CapsJL.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SHCA2015WebRole/fonts/PlanetBenson2.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Web Logo (1).pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Web stuff (1).docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/SHCA2015WebRole.csproj" afterPath="$PROJECT_DIR$/SHCA2015WebRole/SHCA2015WebRole.csproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SHCA2015.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1412473870499" ignored="false" />
+    <file path="/Dummy.txt" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1412473939963" ignored="false" />
     <file path="$PROJECT_DIR$/../../mdc-protractor/.idea/workspace.xml" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1410916849745" ignored="false" />
     <file path="/.gitignore" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1409966731190" ignored="false" />
     <file path="/_Layout.cshtml" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1411437892820" ignored="false" />
@@ -155,7 +150,7 @@
       <file leaf-file-name="Judges.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Judges.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="221" selection-end="221" vertical-scroll-proportion="0.35185185">
+            <state line="10" column="0" selection-start="221" selection-end="221" vertical-scroll-proportion="0.38271606">
               <folding />
             </state>
           </provider>
@@ -583,7 +578,11 @@
       <created>1412473877449</created>
       <updated>1412473877449</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Preliminary website">
+      <created>1412473946386</created>
+      <updated>1412473946386</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -781,7 +780,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Judges.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="221" selection-end="221" vertical-scroll-proportion="0.35185185">
+        <state line="10" column="0" selection-start="221" selection-end="221" vertical-scroll-proportion="0.38271606">
           <folding />
         </state>
       </provider>
