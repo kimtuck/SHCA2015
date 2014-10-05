@@ -25,7 +25,7 @@
   line-height: 0.75em;
   vertical-align: -15%; }
 
-.fa-2x, .nav .icon {
+.fa-2x {
   font-size: 2em; }
 
 .fa-3x {
@@ -1768,9 +1768,9 @@
   padding-top: 100px; }
 
 .home-header {
-  margin-bottom: 60px; }
+  margin-bottom: 20px; }
   .home-header .shcalogo img {
-    margin-top: 100px; }
+    margin-top: 0px; }
   .home-header h1 {
     font-size: 1.3em;
     margin-bottom: 0.8em; }
@@ -1782,7 +1782,7 @@
 
 .nav {
   float: left;
-  font-size: 1.5em;
+  font-size: 1.2em;
   /* Adding some background color to the different menu items */ }
   .nav ul {
     max-width: 1240px;
@@ -1793,10 +1793,10 @@
     font-weight: 300; }
   .nav li {
     display: block;
-    min-width: 150px;
+    min-width: 5em;
     padding: 10px; }
     .nav li div {
-      min-width: 150px;
+      min-width: 5em;
       display: block;
       color: white;
       text-decoration: none; }

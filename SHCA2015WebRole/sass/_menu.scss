@@ -2,13 +2,10 @@
 
 
 
-$menu-width: 150px;
+$menu-width: 5em;
 .nav {
   float: left;
-  font-size: 1.5em;
-  .icon {
-    @extend .fa-2x;
-  }
+  font-size: 1.2em;
   ul {
     max-width: 1240px;
     margin: 0;
