@@ -221,7 +221,6 @@
     <Content Include="UI\Directives\Menu\Menu.js" />
     <Content Include="UI\Hotels\HotelsController.js" />
     <Content Include="UI\Pages\Area Attractions.html" />
-    <Content Include="UI\Pages\Attractions.html" />
     <Content Include="UI\Pages\BreakingNews.html" />
     <Content Include="UI\Pages\Committees.html" />
     <Content Include="UI\Pages\GenericPageController.js" />
