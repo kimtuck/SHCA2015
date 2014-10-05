@@ -7,6 +7,7 @@
 @import "page";
 @import "home";
 @import "menu";
+@import "table";
 
 @import "siblogo";
 .dateinfo {
@@ -22,7 +23,11 @@
 
 @font-face {
   font-family: 'Planet Benson 2';
-  src: url('http://www.fontsaddict.com/fontface/planet-benson-2.ttf');
+  src: url('/fonts/planet-benson-2.ttf');
+}
+@font-face {
+  font-family: 'DryGoods';
+  src: url('/fonts/DryGoodsNarrowSm.CapsJL.ttf');
 }
 
 .shcalogo img {

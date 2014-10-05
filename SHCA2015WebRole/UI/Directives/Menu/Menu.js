@@ -7,6 +7,7 @@ app.directive('menu', [ "MenuService","$location",
                     scope.MenuService=MenuService;
 
                     scope.onClick = function(value) {
+                        console.log(value)
                         $location.url(value);
                     }
 

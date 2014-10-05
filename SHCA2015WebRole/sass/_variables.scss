@@ -1,10 +1,11 @@
+
 $color1: #FFFDB3;
 $color2: #D9AB73;
 $color3: #8C6D46;
 $color4: #733E1F;
 $color5: #591D1D;
 
-$background-color: $color3;
+$background-color: lighten($color3,40%);
 
 $body-width: 1000px;
 
@@ -19,5 +20,8 @@ $menu-button-background-color: $color3;
 $menu-button-background-color-hover: lighten($menu-button-background-color, 40%);
 $menu-button-background-color-active: darken($menu-button-background-color, 10%);
 
-
+@font-face {
+  font-family: planet-benson-2;
+  src: url(/fonts/PlanetBenson2.ttf);
+}
 

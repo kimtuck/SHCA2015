@@ -16,13 +16,24 @@
   @include icon-hotel;
 }
 
-@mixin icon-attractions {
+.icon-show-site {
+  @extend .fa;
+  @extend .fa-university;
+}
+
+@mixin icon-area-attractions {
   @extend .fa;
   @extend .fa-eye;
 }
 
-.icon-attractions, .icon-area {
-  @include icon-attractions;
+.icon-area-attractions, .icon-area {
+  @include icon-area-attractions;
+}
+
+.icon-paw {
+  @extend .fa;
+  @extend .fa-paw;
+
 }
 
 @mixin icon-schedule {

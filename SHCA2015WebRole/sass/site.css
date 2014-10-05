@@ -11,7 +11,7 @@
   src: url("FontAwesome/assets/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0") format("embedded-opentype"), url("FontAwesome/assets/fonts/fontawesome-webfont.woff?v=4.2.0") format("woff"), url("FontAwesome/assets/fonts/fontawesome-webfont.ttf?v=4.2.0") format("truetype"), url("FontAwesome/assets/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
-.fa, .icon-home, .icon-hotels, .icon-attractions, .icon-area, .icon-schedule, .icon-committees, .icon-judges {
+.fa, .icon-home, .icon-hotels, .icon-show-site, .icon-area-attractions, .icon-area, .icon-paw, .page .fancy-ul li:before, .icon-schedule, .icon-committees, .icon-judges {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -68,9 +68,9 @@
 .pull-left {
   float: left; }
 
-.fa.pull-left, .pull-left.icon-home, .pull-left.icon-hotels, .pull-left.icon-attractions, .pull-left.icon-area, .pull-left.icon-schedule, .pull-left.icon-committees, .pull-left.icon-judges {
+.fa.pull-left, .pull-left.icon-home, .pull-left.icon-hotels, .pull-left.icon-show-site, .pull-left.icon-area-attractions, .pull-left.icon-area, .pull-left.icon-paw, .page .fancy-ul li.pull-left:before, .pull-left.icon-schedule, .pull-left.icon-committees, .pull-left.icon-judges {
   margin-right: .3em; }
-.fa.pull-right, .pull-right.icon-home, .pull-right.icon-hotels, .pull-right.icon-attractions, .pull-right.icon-area, .pull-right.icon-schedule, .pull-right.icon-committees, .pull-right.icon-judges {
+.fa.pull-right, .pull-right.icon-home, .pull-right.icon-hotels, .pull-right.icon-show-site, .pull-right.icon-area-attractions, .pull-right.icon-area, .pull-right.icon-paw, .page .fancy-ul li.pull-right:before, .pull-right.icon-schedule, .pull-right.icon-committees, .pull-right.icon-judges {
   margin-left: .3em; }
 
 .fa-spin {
@@ -474,7 +474,7 @@
 .fa-fire:before {
   content: ""; }
 
-.fa-eye:before, .icon-attractions:before, .icon-area:before {
+.fa-eye:before, .icon-area-attractions:before, .icon-area:before {
   content: ""; }
 
 .fa-eye-slash:before {
@@ -1322,7 +1322,8 @@
 
 .fa-institution:before,
 .fa-bank:before,
-.fa-university:before {
+.fa-university:before,
+.icon-show-site:before {
   content: ""; }
 
 .fa-mortar-board:before,
@@ -1377,7 +1378,7 @@
 .fa-child:before {
   content: ""; }
 
-.fa-paw:before {
+.fa-paw:before, .icon-paw:before, .page .fancy-ul li:before {
   content: ""; }
 
 .fa-spoon:before {
@@ -1660,11 +1661,52 @@
 .fa-meanpath:before {
   content: ""; }
 
+@font-face {
+  font-family: planet-benson-2;
+  src: url(/fonts/PlanetBenson2.ttf); }
+@font-face {
+  font-family: planet-benson-2;
+  src: url(/fonts/PlanetBenson2.ttf); }
 .page {
   margin: 0 auto;
   position: relative;
   min-height: 400px;
   padding-left: 12em; }
+  .page h1 {
+    font-family: planet-benson-2;
+    text-align: center; }
+  .page h2 {
+    color: black;
+    font-size: 1.1em;
+    line-height: 1.2em; }
+  .page h3 {
+    font-size: 1.0em; }
+  .page td {
+    vertical-align: top; }
+  .page .page-body {
+    font-size: 1.7em;
+    float: left;
+    padding-left: 100px;
+    overflow: wrap; }
+  .page .fancy-ul ul {
+    margin: 0.5em 0 0.5em 0;
+    list-style-type: none; }
+  .page .fancy-ul li {
+    display: block;
+    margin-bottom: 0.8em; }
+  .page .fancy-ul li:before {
+    margin: 0 0.5em 0 -1.5em;
+    color: #696838; }
+  .page .hotels address {
+    display: inline-block;
+    text-align: center; }
+  .page .hotels img {
+    margin-bottom: 45px; }
+  .page .hotels .hotel-details ul {
+    margin-left: 30px;
+    margin-bottom: 1em; }
+  .page .hotels .hotel-details div {
+    margin-bottom: 1em; }
   .page .SibLogo {
     width: 200px;
     float: right; }
@@ -1672,29 +1714,71 @@
 .shcalogo-footer {
   width: 20px; }
 
-.home {
-  position: relative; }
-  .home .SibLogo.homelogo {
-    width: 600px;
-    float: left;
-    padding-left: 100px; }
-  .home .home-header {
-    margin-bottom: 60px; }
-    .home .home-header .shcalogo img {
-      margin-top: 100px; }
-    .home .home-header h1 {
-      font-size: 1.5em;
-      margin-bottom: 0.8em; }
-    .home .home-header h3 {
-      font-size: 1.3em;
-      margin-bottom: 0.6em; }
-    .home .home-header h2 {
-      color: black;
-      font-size: 1.1em;
-      line-height: 1.2em; }
-      .home .home-header h2 span {
-        display: block;
-        text-align: center; }
+.breaking-news {
+  margin-left: 50%;
+  margin-right: 50%;
+  margin-bottom: 20px;
+  display: inline-block;
+  height: 1em;
+  background-color: white;
+  border-radius: 0.5em;
+  font-size: 2.5em;
+  font-family: DryGoods,Arial;
+  padding: 0 1em 0 1em;
+  text-decoration: none;
+  /*    border-top: 1px solid #96d1f8;
+  
+      @include background-image(linear-gradient(#3e779d, #65a9d7));
+  
+      background: #65a9d7;
+      padding: 15px 30px;
+      -webkit-border-radius: 31px;
+      -moz-border-radius: 31px;
+      border-radius: 31px;
+      -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+      -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+      box-shadow: rgba(0,0,0,1) 0 1px 0;
+      text-shadow: rgba(0,0,0,.4) 0 1px 0;
+      color: white;
+      font-size: 16px;
+      font-family: Helvetica, Arial, Sans-Serif;
+      text-decoration: none;
+      vertical-align: middle;
+  
+      &:hover {
+        border-top-color: #28597a;
+        background: #28597a;
+        color: #ccc;
+      }
+      &:active {
+        border-top-color: #1b435e;
+        background: #1b435e;
+      }
+  */ }
+  .breaking-news a {
+    display: inline-block;
+    margin-top: 0.3em; }
+    .breaking-news a:hover {
+      color: red;
+      text-decoration: none; }
+
+.SibLogo.homelogo {
+  width: 600px;
+  float: left;
+  padding-left: 100px; }
+
+.home-header {
+  margin-bottom: 60px; }
+  .home-header .shcalogo img {
+    margin-top: 100px; }
+  .home-header h1 {
+    font-size: 1.3em;
+    margin-bottom: 0.8em; }
+  .home-header h3 {
+    margin-bottom: 0.6em; }
+  .home-header h2 span {
+    display: block;
+    text-align: center; }
 
 .nav {
   float: left;
@@ -1943,6 +2027,71 @@ div, button {
   /* make the nav bigger on touch screens */
   .touch .nav a {
     padding: 0.8em; } }
+table table {
+  background: #D3E4E5;
+  border: 1px solid gray;
+  border-collapse: collapse;
+  color: #fff;
+  font: verdana, arial, helvetica, sans-serif;
+  font-size: 1.1em;
+  width: 100%; }
+  table table caption {
+    border: 1px solid #5C443A;
+    color: #5C443A;
+    font-weight: bold;
+    letter-spacing: 20px;
+    padding: 6px 4px 8px 0px;
+    text-align: center;
+    text-transform: uppercase; }
+  table table td, table table th {
+    color: #363636;
+    padding: .4em; }
+  table table tr {
+    border: 1px dotted gray; }
+  table table thead th, table table tfoot th {
+    background: #5C443A;
+    color: #FFFFFF;
+    padding: 3px 10px 3px 10px;
+    text-align: left;
+    text-transform: uppercase; }
+  table table tbody td a {
+    color: #363636;
+    text-decoration: none; }
+  table table tbody td a:visited {
+    color: gray;
+    text-decoration: line-through; }
+  table table tbody td a:hover {
+    text-decoration: underline; }
+  table table tbody th a {
+    color: #363636;
+    font-weight: normal;
+    text-decoration: none; }
+  table table tbody th a:hover {
+    color: #363636; }
+  table table tbody td + td + td + td a {
+    background-image: url("http://www.admixweb.com/downloads/csstablegallery/bullet_blue.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: #03476F;
+    padding-left: 15px; }
+  table table tbody td + td + td + td a:visited {
+    background-image: url("http://www.admixweb.com/downloads/csstablegallery/bullet_white.png");
+    background-position: left center;
+    background-repeat: no-repeat; }
+  table table tbody th, table table tbody td {
+    text-align: left;
+    vertical-align: top; }
+  table table tfoot td {
+    background: #5C443A;
+    color: #FFFFFF;
+    padding-top: 3px; }
+  table table .odd {
+    background: #fff; }
+  table table tbody tr:hover {
+    background: #99BCBF;
+    border: 1px solid #03476F;
+    color: #000000; }
+
 .dateinfo {
   display: inline-block;
   width: auto;
@@ -1954,7 +2103,10 @@ div, button {
 
 @font-face {
   font-family: 'Planet Benson 2';
-  src: url("http://www.fontsaddict.com/fontface/planet-benson-2.ttf"); }
+  src: url("/fonts/planet-benson-2.ttf"); }
+@font-face {
+  font-family: 'DryGoods';
+  src: url("/fonts/DryGoodsNarrowSm.CapsJL.ttf"); }
 .shcalogo img {
   width: 300px;
   height: 300px; }
@@ -1971,7 +2123,7 @@ ul, ol {
 .site {
   width: 80%;
   margin: 0 auto;
-  background-color: #8C6D46;
+  background-color: #dfd1bf;
   padding-top: 50px;
   padding-bottom: 20px; }
 
@@ -1979,7 +2131,7 @@ ul, ol {
 .body-content {
   padding-left: 15px;
   padding-right: 15px;
-  background-color: #8C6D46; }
+  background-color: #dfd1bf; }
 
 /* Set width on the form input elements since they're 100% wide by default */
 input,

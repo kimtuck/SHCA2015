@@ -1,13 +1,28 @@
-﻿﻿'use strict';
+﻿﻿﻿'use strict';
+
+var Pages = [
+    "Home",
+    "Show Site",
+    "Judges",
+    "Schedule",
+    "Hotels",
+    "Committees",
+    "Area Attractions"];
+
+var PrivatePages = [
+    "BreakingNews"]
+
 var app = angular.module('app',
     // Other modules
     ['ngRoute'],
     ["$routeProvider","$locationProvider",
-        function ($routeProvider, $locationProvider,RouteService) {
-            _.each(Global_Pages, function (page) {
-                var route = { path: '/' + page, route: { templateUrl: '/UI/Pages/' +  page + '.html' } };
-                console.log(route);
+        function ($routeProvider, $locationProvider) {
+            _.each(_.union(Pages, PrivatePages),function(item) {
+                var route = { path: ("/" + item).replace(' ',''),
+                    route: { templateUrl: '/UI/Pages/' + item + ".html",
+                        controller: 'GenericPageController' } };
                 $routeProvider.when(route.path, route.route);
+                console.log(route, route.route);
             });
             $routeProvider.otherwise({ redirectTo: '/Home' });
         }

@@ -1,5 +1,58 @@
-.home {
-  position: relative;
+//@import "compass/css3/images";
+.breaking-news {
+    margin-left: 50%;
+    margin-right: 50%;
+
+    margin-bottom: 20px;
+    display: inline-block;
+    height: 1em;
+    background-color: white;
+    border-radius: 0.5em;
+    font-size: 2.5em;
+    font-family: DryGoods,Arial;
+    padding: 0 1em 0 1em;
+    text-decoration: none;
+    a {
+      display: inline-block;
+      margin-top: 0.3em;
+
+      &:hover {
+        color: red;
+        text-decoration: none;
+      }
+    }
+
+
+/*    border-top: 1px solid #96d1f8;
+
+    @include background-image(linear-gradient(#3e779d, #65a9d7));
+
+    background: #65a9d7;
+    padding: 15px 30px;
+    -webkit-border-radius: 31px;
+    -moz-border-radius: 31px;
+    border-radius: 31px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-size: 16px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+
+    &:hover {
+      border-top-color: #28597a;
+      background: #28597a;
+      color: #ccc;
+    }
+    &:active {
+      border-top-color: #1b435e;
+      background: #1b435e;
+    }
+*/
+  }
 
   .SibLogo.homelogo {
     width: 600px;
@@ -19,23 +72,16 @@
     .dateinfo {
     }
     h1 {
-      font-size: 1.5em;
+      font-size: 1.3em;
       margin-bottom: 0.8em;
     }
     h3 {
-      font-size: 1.3em;
       margin-bottom: 0.6em;
-
     }
     h2 {
-      color: black;
-      font-size: 1.1em;
-      line-height: 1.2em;
-      //font-face: serif;
       span {
         display: block;
         text-align: center;
       }
     }
   }
-}
