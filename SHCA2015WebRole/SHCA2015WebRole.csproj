@@ -336,7 +336,6 @@
     <Content Include="UI\Vendor\Angular-1.2.0\docs\index-nocache.html" />
     <Content Include="UI\Vendor\Angular-1.2.0\docs\index.html" />
     <Content Include="UI\Vendor\Angular-1.2.0\docs\js\docs.js" />
-    <Content Include="UI\Vendor\Angular-1.2.0\docs\notes\empty.tmp" />
     <Content Include="UI\Vendor\Angular-1.2.0\docs\offline.html" />
     <Content Include="UI\Vendor\Angular-1.2.0\docs\partials\api\angular.bind.html" />
     <Content Include="UI\Vendor\Angular-1.2.0\docs\partials\api\angular.bootstrap.html" />
@@ -1855,6 +1854,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Content\css\" />
     <Folder Include="sass\images\" />
+    <Folder Include="UI\Vendor\Angular-1.2.0\docs\notes\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
