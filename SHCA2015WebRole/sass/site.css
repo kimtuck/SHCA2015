@@ -1684,12 +1684,11 @@
   .page td {
     vertical-align: top; }
   .page .page-body {
-    font-size: 1.7em;
+    font-size: 1.3em;
     float: left;
-    padding-left: 100px;
     overflow: wrap; }
   .page .fancy-ul ul {
-    margin: 0.5em 0 0.5em 0;
+    margin: 0.5em 0 0.5em 3em;
     list-style-type: none; }
   .page .fancy-ul li {
     display: block;
@@ -1715,11 +1714,12 @@
   width: 20px; }
 
 .breaking-news {
-  margin-left: 50%;
-  margin-right: 50%;
-  margin-bottom: 20px;
-  display: inline-block;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5em;
   height: 1em;
+  margin-bottom: 20px;
   background-color: white;
   border-radius: 0.5em;
   font-size: 2.5em;
@@ -1764,8 +1764,8 @@
 
 .SibLogo.homelogo {
   width: 600px;
-  float: left;
-  padding-left: 100px; }
+  padding-left: 150px;
+  padding-top: 100px; }
 
 .home-header {
   margin-bottom: 60px; }
@@ -2097,9 +2097,9 @@ table table {
   width: auto;
   margin: 0 20px 0 20px;
   text-align: center;
-  font-size: 3.5em;
+  font-size: 2.0em;
   color: #1691be;
-  line-height: 2.5em; }
+  line-height: 2.0em; }
 
 @font-face {
   font-family: 'Planet Benson 2';
@@ -2110,6 +2110,9 @@ table table {
 .shcalogo img {
   width: 300px;
   height: 300px; }
+
+body {
+  font-size: 1em !important; }
 
 img {
   vertical-align: top; }
