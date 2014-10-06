@@ -3,14 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="06d5b400-8f40-4e29-b941-e0d7338a50b9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/sass/_home.scss" afterPath="$PROJECT_DIR$/SHCA2015WebRole/sass/_home.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/sass/_menu.scss" afterPath="$PROJECT_DIR$/SHCA2015WebRole/sass/_menu.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/sass/site.css.map" afterPath="$PROJECT_DIR$/SHCA2015WebRole/sass/site.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/sass/site.css" afterPath="$PROJECT_DIR$/SHCA2015WebRole/sass/site.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/sass/site.scss" afterPath="$PROJECT_DIR$/SHCA2015WebRole/sass/site.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SHCA2015.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1412552596222" ignored="false" />
+    <file path="/Dummy.txt" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1412553363135" ignored="false" />
     <file path="$PROJECT_DIR$/../../mdc-protractor/.idea/workspace.xml" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1410916849745" ignored="false" />
     <file path="/.gitignore" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1409966731190" ignored="false" />
     <file path="/_Layout.cshtml" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1411437892820" ignored="false" />
@@ -43,7 +43,7 @@
     <file path="/_page.scss" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1412550853149" ignored="false" />
     <file path="/Committees.html" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1412295067473" ignored="false" />
     <file path="/_table.scss" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1412295763895" ignored="false" />
-    <file path="/*.regexp" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1412553117613" ignored="false" />
+    <file path="/*.regexp" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1412553598555" ignored="false" />
     <file path="/Schedule.html" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1412302447907" ignored="false" />
     <file path="/CacheServiceTests.js" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1412383350534" ignored="false" />
     <file path="$PROJECT_DIR$/../../Sunbeam-master/Server/Web/Hub/UI/Dev/Tests/UnitTests/Services/CacheServiceTests.js" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1412383352255" ignored="false" />
@@ -78,19 +78,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_home.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_home.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/sass/_home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="21" selection-start="1358" selection-end="1358" vertical-scroll-proportion="0.0">
+            <state line="5" column="12" selection-start="127" selection-end="127" vertical-scroll-proportion="0.26586622">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_menu.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_menu.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/sass/_menu.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="16" selection-start="94" selection-end="94" vertical-scroll-proportion="0.38070175">
+            <state line="7" column="16" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -144,7 +144,7 @@
       <file leaf-file-name="site.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/sass/site.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="22" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+            <state line="34" column="11" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -153,7 +153,7 @@
       <file leaf-file-name="site.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/sass/site.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2145" column="0" selection-start="38563" selection-end="38563" vertical-scroll-proportion="0.0">
+            <state line="2145" column="0" selection-start="38562" selection-end="38562" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -189,10 +189,10 @@
         <option value="$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Schedule.html" />
         <option value="$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/BreakingNews.html" />
         <option value="$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Judges.html" />
-        <option value="$PROJECT_DIR$/SHCA2015WebRole/sass/site.scss" />
         <option value="$PROJECT_DIR$/SHCA2015WebRole/sass/_page.scss" />
-        <option value="$PROJECT_DIR$/SHCA2015WebRole/sass/_home.scss" />
         <option value="$PROJECT_DIR$/SHCA2015WebRole/sass/_menu.scss" />
+        <option value="$PROJECT_DIR$/SHCA2015WebRole/sass/site.scss" />
+        <option value="$PROJECT_DIR$/SHCA2015WebRole/sass/_home.scss" />
       </list>
     </option>
   </component>
@@ -497,7 +497,11 @@
       <created>1412552601476</created>
       <updated>1412552601476</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Preliminary website">
+      <created>1412553366665</created>
+      <updated>1412553366665</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -649,21 +653,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/sass/site.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2145" column="0" selection-start="38563" selection-end="38563" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/sass/site.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="22" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/sass/_page.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="28" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
+        <state line="2145" column="0" selection-start="38562" selection-end="38562" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -671,13 +661,6 @@
     <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/sass/_siblogo.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="20" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/sass/_home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="21" selection-start="1358" selection-end="1358" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -691,7 +674,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/sass/_menu.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="94" selection-end="94" vertical-scroll-proportion="0.38070175">
+        <state line="7" column="16" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/sass/_page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="28" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/sass/site.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="11" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/sass/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="12" selection-start="127" selection-end="127" vertical-scroll-proportion="0.26586622">
           <folding />
         </state>
       </provider>
