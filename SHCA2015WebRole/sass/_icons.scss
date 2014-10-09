@@ -62,3 +62,11 @@
 .icon-judges {
   @include icon-judges;
 }
+
+@mixin icon-info-book {
+  @extend .fa;
+  @extend .fa-info-circle;
+}
+.icon-info-book {
+  @include icon-info-book;
+}

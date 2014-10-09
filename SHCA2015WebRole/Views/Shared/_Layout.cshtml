@@ -35,14 +35,13 @@
         <script src="~/UI/Pages/GenericPageController.js"></script>
 
     @Html.Raw(JSONDataHelper.Data("Pages", ViewBag.Pages))
+    <link href='http://fonts.googleapis.com/css?family=Kameron:400,700' rel='stylesheet' type='text/css'>
     <link href="~/sass/site.css" rel="stylesheet" />
 
 
 </head>
 <body ng-app="app" class="site">
-    <div class="container body-content">
-         <div ng-view></div>
-    </div>
+    <div ng-view></div>
     @RenderBody()
     <hr />
     <footer>

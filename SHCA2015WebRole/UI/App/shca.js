@@ -2,12 +2,14 @@
 
 var Pages = [
     "Home",
-    "Show Site",
-    "Judges",
-    "Schedule",
-    "Hotels",
+    "Area Attractions",
     "Committees",
-    "Area Attractions"];
+    "Hotels",
+    "Info Book",
+    "Judges",
+    "Show Site",
+    "Schedule"
+];
 
 var PrivatePages = [
     "BreakingNews"]
