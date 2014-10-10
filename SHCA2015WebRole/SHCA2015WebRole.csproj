@@ -1805,7 +1805,6 @@
     <Content Include="sass\FontAwesome\assets\stylesheets\_spinning.scss" />
     <Content Include="sass\FontAwesome\assets\stylesheets\_stacked.scss" />
     <Content Include="sass\FontAwesome\assets\stylesheets\_variables.scss" />
-    <Content Include="sass\_home.scss" />
     <Content Include="sass\_icons.scss" />
     <Content Include="sass\_menu.css.map" />
     <Content Include="sass\_menu.scss" />
