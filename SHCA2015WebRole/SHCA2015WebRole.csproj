@@ -1808,7 +1808,6 @@
     <Content Include="sass\_icons.scss" />
     <Content Include="sass\_menu.css.map" />
     <Content Include="sass\_menu.scss" />
-    <Content Include="sass\_page.scss" />
     <Content Include="sass\_siblogo.scss" />
     <Content Include="sass\_table.scss" />
     <Content Include="sass\_variables.scss" />
