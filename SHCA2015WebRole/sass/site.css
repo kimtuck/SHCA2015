@@ -1663,21 +1663,20 @@
 
 .nav {
   float: left;
-  font-size: 1.2em;
+  font-size: 0.95em;
   /* Adding some background color to the different menu items */ }
   .nav ul {
     max-width: 1240px;
     margin: 0;
     padding: 0;
     list-style: none;
-    font-size: 1em;
     font-weight: 300; }
   .nav li {
     display: block;
-    min-width: 5em;
+    min-width: 4em;
     padding: 10px; }
     .nav li div {
-      min-width: 5em;
+      min-width: 4em;
       display: block;
       color: white;
       text-decoration: none; }

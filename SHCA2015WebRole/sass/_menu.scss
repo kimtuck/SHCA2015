@@ -2,16 +2,17 @@
 
 
 
-$menu-width: 5em;
+$menu-width: 4em;
+$menu-font-size: 0.95em;
 .nav {
   float: left;
-  font-size: 1.2em;
+  font-size: $menu-font-size;
   ul {
     max-width: 1240px;
     margin: 0;
     padding: 0;
     list-style: none;
-    font-size: 1em;
+    //font-size: 1em;
     font-weight: 300;
   }
 
