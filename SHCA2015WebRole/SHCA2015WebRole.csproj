@@ -236,6 +236,7 @@
     <Content Include="UI\Pages\GenericPageController.js" />
     <Content Include="UI\Pages\Home.html" />
     <Content Include="UI\Pages\Hotels.html" />
+    <Content Include="UI\Pages\info book.html" />
     <Content Include="UI\Pages\Judges.html" />
     <Content Include="UI\Pages\Schedule.html" />
     <Content Include="UI\Pages\Show Site.html" />
