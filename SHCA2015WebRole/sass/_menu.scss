@@ -2,17 +2,21 @@
 
 
 
-$menu-width: 4em;
-$menu-font-size: 0.95em;
+$menu-width: 4.5em;
+$menu-font-size: 0.9em;
 .nav {
   float: left;
+  text-align: center;
   font-size: $menu-font-size;
+  .icon {
+    font-size: 1.6em;
+  }
   ul {
     max-width: 1240px;
     margin: 0;
     padding: 0;
     list-style: none;
-    //font-size: 1em;
+    font-size: 1em;
     font-weight: 300;
   }
 
@@ -85,7 +89,7 @@ div, button {
 /* Hover effect for the whole navigation to make the hovered item stand out */
 
 
-
+.xxignore {
 /* For screen bigger than 800px */
 @media (min-width: 50em) {
 
@@ -353,4 +357,6 @@ div, button {
   .touch .nav a {
     padding: 0.8em;
   }
+}
+
 }

@@ -1663,20 +1663,24 @@
 
 .nav {
   float: left;
-  font-size: 0.95em;
+  text-align: center;
+  font-size: 0.9em;
   /* Adding some background color to the different menu items */ }
+  .nav .icon {
+    font-size: 1.6em; }
   .nav ul {
     max-width: 1240px;
     margin: 0;
     padding: 0;
     list-style: none;
+    font-size: 1em;
     font-weight: 300; }
   .nav li {
     display: block;
-    min-width: 4em;
+    min-width: 4.5em;
     padding: 10px; }
     .nav li div {
-      min-width: 4em;
+      min-width: 4.5em;
       display: block;
       color: white;
       text-decoration: none; }
@@ -1702,211 +1706,185 @@ div, button {
   -webkit-tap-highlight-color: transparent; }
 
 /* Hover effect for the whole navigation to make the hovered item stand out */
-/* For screen bigger than 800px */
-@media (min-width: 50em) {
-  /* Transforms the list into a horizontal navigation */
-  .nav li {
-    width: 16.66666666666667%;
-    text-align: center; }
-
-  .nav div {
-    display: block;
-    width: auto; }
-
-  /* Placing the icon */
-  .icon {
-    padding-top: 0.5em; }
-
-  .icon + span {
-    margin-top: 0.2em;
-    -webkit-transition: margin .5s;
-    -moz-transition: margin .5s;
-    -o-transition: margin .5s;
-    -ms-transition: margin .5s;
-    transition: margin .5s; }
-
-  .no-touch .nav div:hover,
-  .nav div:active,
-  .nav div:focus {
-    height: auto; } }
-@media (min-width: 50em) and (max-width: 61.25em) {
-  /* Size and font adjustments to make it fit into the screen*/
-  .nav ul {
-    font-size: 1.2em; } }
-/* The "tablet" and "mobile" version */
-@media (max-width: 49.938em) {
-  /* Instead of adding a border, we transition the background color */
-  .no-touch .nav ul li:nth-child(6n+1) div:hover,
-  .no-touch .nav ul li:nth-child(6n+1) div:active,
-  .no-touch .nav ul li:nth-child(6n+1) div:focus {
-    background: #e37714; }
-
-  .no-touch .nav li:nth-child(6n+2) div:hover,
-  .no-touch .nav li:nth-child(6n+2) div:active,
-  .no-touch .nav li:nth-child(6n+2) div:focus {
-    background: #f5a029; }
-
-  .no-touch .nav li:nth-child(6n+3) a:hover,
-  .no-touch .nav li:nth-child(6n+3) a:active,
-  .no-touch .nav li:nth-child(6n+3) a:focus {
-    background: #2ca8db; }
-
-  .no-touch .nav li:nth-child(6n+4) a:hover,
-  .no-touch .nav li:nth-child(6n+4) a:active,
-  .no-touch .nav li:nth-child(6n+4) a:focus {
-    background: #1f78b0; }
-
-  .no-touch .nav li:nth-child(6n+5) a:hover,
-  .no-touch .nav li:nth-child(6n+5) a:active,
-  .no-touch .nav li:nth-child(6n+5) a:focus {
-    background: #27465a; }
-
-  .no-touch .nav li:nth-child(6n+6) a:hover,
-  .no-touch .nav li:nth-child(6n+6) a:active,
-  .no-touch .nav li:nth-child(6n+6) a:focus {
-    background: #203644; }
-
-  .nav ul li {
-    -webkit-transition: background 0.5s;
-    -moz-transition: background 0.5s;
-    -o-transition: background 0.5s;
-    -ms-transition: background 0.5s;
-    transition: background 0.5s; } }
-/* CSS specific to the 2x3 columns version */
-@media (min-width: 32.5em) and (max-width: 49.938em) {
-  /* Creating the 2 column layout using floating elements once again */
-  .nav li {
-    display: block;
-    float: left;
-    width: 50%; }
-
-  /* Adding some padding to make the elements look nicer*/
-  .nav a {
-    padding: 0.8em; }
-
-  /* Displaying the icons on the left, and the text on the right side using inlin-block*/
-  .nav li span,
-  .nav li span.icon {
-    display: inline-block; }
-
-  .nav li span.icon {
-    width: 50%; }
-
-  .nav li .icon + span {
-    font-size: 1em; }
-
-  .icon + span {
+.xxignore {
+  /* For screen bigger than 800px */
+  /* The "tablet" and "mobile" version */
+  /* CSS specific to the 2x3 columns version */
+  /* Adapting the font size and width for smaller screns*/
+  /* Styling the toggle menu link and hiding it */ }
+  @media (min-width: 50em) {
+    .xxignore {
+      /* Transforms the list into a horizontal navigation */
+      /* Placing the icon */ }
+      .xxignore .nav li {
+        width: 16.66666666666667%;
+        text-align: center; }
+      .xxignore .nav div {
+        display: block;
+        width: auto; }
+      .xxignore .icon {
+        padding-top: 0.5em; }
+      .xxignore .icon + span {
+        margin-top: 0.2em;
+        -webkit-transition: margin .5s;
+        -moz-transition: margin .5s;
+        -o-transition: margin .5s;
+        -ms-transition: margin .5s;
+        transition: margin .5s; }
+      .xxignore .no-touch .nav div:hover,
+      .xxignore .nav div:active,
+      .xxignore .nav div:focus {
+        height: auto; } }
+  @media (min-width: 50em) and (max-width: 61.25em) {
+    .xxignore {
+      /* Size and font adjustments to make it fit into the screen*/ }
+      .xxignore .nav ul {
+        font-size: 1.2em; } }
+  @media (max-width: 49.938em) {
+    .xxignore {
+      /* Instead of adding a border, we transition the background color */ }
+      .xxignore .no-touch .nav ul li:nth-child(6n+1) div:hover,
+      .xxignore .no-touch .nav ul li:nth-child(6n+1) div:active,
+      .xxignore .no-touch .nav ul li:nth-child(6n+1) div:focus {
+        background: #e37714; }
+      .xxignore .no-touch .nav li:nth-child(6n+2) div:hover,
+      .xxignore .no-touch .nav li:nth-child(6n+2) div:active,
+      .xxignore .no-touch .nav li:nth-child(6n+2) div:focus {
+        background: #f5a029; }
+      .xxignore .no-touch .nav li:nth-child(6n+3) a:hover,
+      .xxignore .no-touch .nav li:nth-child(6n+3) a:active,
+      .xxignore .no-touch .nav li:nth-child(6n+3) a:focus {
+        background: #2ca8db; }
+      .xxignore .no-touch .nav li:nth-child(6n+4) a:hover,
+      .xxignore .no-touch .nav li:nth-child(6n+4) a:active,
+      .xxignore .no-touch .nav li:nth-child(6n+4) a:focus {
+        background: #1f78b0; }
+      .xxignore .no-touch .nav li:nth-child(6n+5) a:hover,
+      .xxignore .no-touch .nav li:nth-child(6n+5) a:active,
+      .xxignore .no-touch .nav li:nth-child(6n+5) a:focus {
+        background: #27465a; }
+      .xxignore .no-touch .nav li:nth-child(6n+6) a:hover,
+      .xxignore .no-touch .nav li:nth-child(6n+6) a:active,
+      .xxignore .no-touch .nav li:nth-child(6n+6) a:focus {
+        background: #203644; }
+      .xxignore .nav ul li {
+        -webkit-transition: background 0.5s;
+        -moz-transition: background 0.5s;
+        -o-transition: background 0.5s;
+        -ms-transition: background 0.5s;
+        transition: background 0.5s; } }
+  @media (min-width: 32.5em) and (max-width: 49.938em) {
+    .xxignore {
+      /* Creating the 2 column layout using floating elements once again */
+      /* Adding some padding to make the elements look nicer*/
+      /* Displaying the icons on the left, and the text on the right side using inlin-block*/
+      /* Adaptating to the icons to animate the size and border of the rounded background in a more discreet way */
+      /* Transition effect on the border color */ }
+      .xxignore .nav li {
+        display: block;
+        float: left;
+        width: 50%; }
+      .xxignore .nav a {
+        padding: 0.8em; }
+      .xxignore .nav li span,
+      .xxignore .nav li span.icon {
+        display: inline-block; }
+      .xxignore .nav li span.icon {
+        width: 50%; }
+      .xxignore .nav li .icon + span {
+        font-size: 1em; }
+      .xxignore .icon + span {
+        position: relative;
+        top: -0.2em; }
+      .xxignore .nav li i {
+        display: inline-block;
+        padding: 8% 9%;
+        border: 4px solid transparent;
+        border-radius: 50%;
+        font-size: 1.5em;
+        background: rgba(255, 255, 255, 0.1);
+        -webkit-transition: border .5s;
+        -moz-transition: border .5s;
+        -o-transition: border .5s;
+        -ms-transition: border .5s;
+        transition: border .5s; }
+      .xxignore .no-touch .nav li:hover i,
+      .xxignore .no-touch .nav li:active i,
+      .xxignore .no-touch .nav li:focus i {
+        border: 4px solid rgba(255, 255, 255, 0.1); } }
+  @media (min-width: 32.5em) and (max-width: 38.688em) {
+    .xxignore .nav li span.icon {
+      width: 50%; }
+    .xxignore .nav li .icon + span {
+      font-size: 0.9em; } }
+  .xxignore .nav .navtoogle {
+    display: none;
+    width: 100%;
+    padding: 0.5em 0.5em 0.8em;
+    font-family: 'Lato',Calibri,Arial,sans-serif;
+    font-weight: normal;
+    text-align: left;
+    color: #07100f;
+    font-size: 1.2em;
+    background: none;
+    border: none;
+    border-bottom: 4px solid #dddddd;
+    cursor: pointer; }
+  .xxignore .icon-menu {
     position: relative;
-    top: -0.2em; }
+    top: 3px;
+    line-height: 0;
+    font-size: 1.6em; }
+  @media (max-width: 32.438em) {
+    .xxignore {
+      /* Unhiding the styled menu link */
+      /* Animating the height of the navigation when the button is clicked */
+      /* When JavaScript is disabled, we hide the menu */
+      /* When JavaScript is enabled, we hide the menu */
+      /* Displaying the menu when the user has clicked on the button*/
+      /* Adapting the layout of the menu for smaller screens : icon on the left and text on the right*/
+      /* Adding a left border of 8 px with a different color for each menu item*/
+      /* make the nav bigger on touch screens */ }
+      .xxignore .nav .navtoogle {
+        margin: 0;
+        display: block; }
+      .xxignore .no-js .nav ul {
+        max-height: 30em;
+        overflow: hidden; }
+      .xxignore .js .nav ul {
+        max-height: 0em;
+        overflow: hidden; }
+      .xxignore .js .nav .active + ul {
+        max-height: 30em;
+        overflow: hidden;
+        -webkit-transition: max-height .4s;
+        -moz-transition: max-height .4s;
+        -o-transition: max-height .4s;
+        -ms-transition: max-height .4s;
+        transition: max-height .4s; }
+      .xxignore .nav li span {
+        display: inline-block;
+        height: 100%; }
+      .xxignore .nav a {
+        padding: 0.5em; }
+      .xxignore .icon + span {
+        margin-left: 1em;
+        font-size: 0.8em; }
+      .xxignore .nav li:nth-child(6n+1) {
+        border-left: 8px solid #ae4e01; }
+      .xxignore .nav li:nth-child(6n+2) {
+        border-left: 8px solid #bf7514; }
+      .xxignore .nav li:nth-child(6n+3) {
+        border-left: 8px solid #0d6f96; }
+      .xxignore .nav li:nth-child(6n+4) {
+        border-left: 8px solid #0a4b75; }
+      .xxignore .nav li:nth-child(6n+5) {
+        border-left: 8px solid #10222c; }
+      .xxignore .nav li:nth-child(6n+6) {
+        border-left: 8px solid #091219; }
+      .xxignore .touch .nav a {
+        padding: 0.8em; } }
 
-  /* Adaptating to the icons to animate the size and border of the rounded background in a more discreet way */
-  .nav li i {
-    display: inline-block;
-    padding: 8% 9%;
-    border: 4px solid transparent;
-    border-radius: 50%;
-    font-size: 1.5em;
-    background: rgba(255, 255, 255, 0.1);
-    -webkit-transition: border .5s;
-    -moz-transition: border .5s;
-    -o-transition: border .5s;
-    -ms-transition: border .5s;
-    transition: border .5s; }
-
-  /* Transition effect on the border color */
-  .no-touch .nav li:hover i,
-  .no-touch .nav li:active i,
-  .no-touch .nav li:focus i {
-    border: 4px solid rgba(255, 255, 255, 0.1); } }
-/* Adapting the font size and width for smaller screns*/
-@media (min-width: 32.5em) and (max-width: 38.688em) {
-  .nav li span.icon {
-    width: 50%; }
-
-  .nav li .icon + span {
-    font-size: 0.9em; } }
-/* Styling the toggle menu link and hiding it */
-.nav .navtoogle {
-  display: none;
-  width: 100%;
-  padding: 0.5em 0.5em 0.8em;
-  font-family: 'Lato',Calibri,Arial,sans-serif;
-  font-weight: normal;
-  text-align: left;
-  color: #07100f;
-  font-size: 1.2em;
-  background: none;
-  border: none;
-  border-bottom: 4px solid #dddddd;
-  cursor: pointer; }
-
-.icon-menu {
-  position: relative;
-  top: 3px;
-  line-height: 0;
-  font-size: 1.6em; }
-
-@media (max-width: 32.438em) {
-  /* Unhiding the styled menu link */
-  .nav .navtoogle {
-    margin: 0;
-    display: block; }
-
-  /* Animating the height of the navigation when the button is clicked */
-  /* When JavaScript is disabled, we hide the menu */
-  .no-js .nav ul {
-    max-height: 30em;
-    overflow: hidden; }
-
-  /* When JavaScript is enabled, we hide the menu */
-  .js .nav ul {
-    max-height: 0em;
-    overflow: hidden; }
-
-  /* Displaying the menu when the user has clicked on the button*/
-  .js .nav .active + ul {
-    max-height: 30em;
-    overflow: hidden;
-    -webkit-transition: max-height .4s;
-    -moz-transition: max-height .4s;
-    -o-transition: max-height .4s;
-    -ms-transition: max-height .4s;
-    transition: max-height .4s; }
-
-  /* Adapting the layout of the menu for smaller screens : icon on the left and text on the right*/
-  .nav li span {
-    display: inline-block;
-    height: 100%; }
-
-  .nav a {
-    padding: 0.5em; }
-
-  .icon + span {
-    margin-left: 1em;
-    font-size: 0.8em; }
-
-  /* Adding a left border of 8 px with a different color for each menu item*/
-  .nav li:nth-child(6n+1) {
-    border-left: 8px solid #ae4e01; }
-
-  .nav li:nth-child(6n+2) {
-    border-left: 8px solid #bf7514; }
-
-  .nav li:nth-child(6n+3) {
-    border-left: 8px solid #0d6f96; }
-
-  .nav li:nth-child(6n+4) {
-    border-left: 8px solid #0a4b75; }
-
-  .nav li:nth-child(6n+5) {
-    border-left: 8px solid #10222c; }
-
-  .nav li:nth-child(6n+6) {
-    border-left: 8px solid #091219; }
-
-  /* make the nav bigger on touch screens */
-  .touch .nav a {
-    padding: 0.8em; } }
 table table {
   background: #D3E4E5;
   border: 1px solid gray;

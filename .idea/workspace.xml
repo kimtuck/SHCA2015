@@ -12,7 +12,7 @@
     </list>
     <ignored path="SHCA2015.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1412903093385" ignored="false" />
+    <file path="/Dummy.txt" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1412903577395" ignored="false" />
     <file path="$PROJECT_DIR$/../../mdc-protractor/.idea/workspace.xml" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1410916849745" ignored="false" />
     <file path="/.gitignore" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1409966731190" ignored="false" />
     <file path="/_Layout.cshtml" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1411437892820" ignored="false" />
@@ -28,7 +28,7 @@
     <file path="/site.css" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1410130252775" ignored="false" />
     <file path="/site.scss" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1412822228379" ignored="false" />
     <file path="/_variables.scss" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1412822080647" ignored="false" />
-    <file path="/_menu.scss" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1412903502865" ignored="false" />
+    <file path="/_menu.scss" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1412904460882" ignored="false" />
     <file path="$PROJECT_DIR$/../../CAT-web/js/config.js" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1410227659121" ignored="false" />
     <file path="/Hotels.html" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1412298599028" ignored="false" />
     <file path="/RouteService.js" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1412471417431" ignored="false" />
@@ -78,7 +78,7 @@
       <file leaf-file-name="_menu.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/sass/_menu.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.33333334">
+            <state line="11" column="18" selection-start="184" selection-end="184" vertical-scroll-proportion="0.4074074">
               <folding />
             </state>
           </provider>
@@ -685,7 +685,11 @@
       <created>1412903102063</created>
       <updated>1412903102063</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Preliminary website">
+      <created>1412903581830</created>
+      <updated>1412903581830</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -883,7 +887,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/sass/_menu.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.33333334">
+        <state line="11" column="18" selection-start="184" selection-end="184" vertical-scroll-proportion="0.4074074">
           <folding />
         </state>
       </provider>
