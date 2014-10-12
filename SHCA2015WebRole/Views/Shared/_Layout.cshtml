@@ -30,7 +30,9 @@
 
         <script src="~/UI/Directives/Logo/Logo.js"></script>
         <script src="~/UI/Directives/Menu/Menu.js"></script>
+        <script src="~/UI/Directives/Page/Page.js"></script>
         <script src="~/UI/Directives/home-header/home-header.js"></script>
+        <script src="~/UI/Directives/header/header.js"></script>
 
         <script src="~/UI/Pages/GenericPageController.js"></script>
 
@@ -43,6 +45,7 @@
 <body ng-app="app" class="site">
     <div ng-view></div>
     @RenderBody()
+    <div style="clear: both"></div>
     <hr />
     <footer>
         <p>&copy; @DateTime.Now.Year - SHCA

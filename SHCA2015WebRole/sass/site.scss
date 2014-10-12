@@ -2,7 +2,6 @@
 @import "FontAwesome/assets/stylesheets/font-awesome";
 @import "compass/layout/stretching";
 
-
 //////////////////////////////////////////////
 $color1: #FFFDB3;
 $color2: #D9AB73;
@@ -31,17 +30,6 @@ $menu-button-background-color-active: darken($menu-button-background-color, 10%)
 @import "icons";
 @import "menu";
 @import "table";
-
-////////////////////////////////
-// layout
-///////////////////////////////
-
-body {
-  width: 80%;
-  margin: 0 auto;
-  background-color: $background-color;
-}
-.shcalogo-footer { width: 20px;}
 
 // Colors, etc
 @font-face {
@@ -80,46 +68,68 @@ ul, ol {
   margin: 0;
 }
 
-// stupid bootstrap
-body {
-  font-size: 1em !important;
-}
 img {
   vertical-align: top;
 }
 
+td {
+  vertical-align: top;
+}
+h1 {
+  font-family: planet-benson-2;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  font-size: 0.9em;
+  line-height: 1.2em;
+}
+
+h3 {
+  font-size: 0.8em;
+}
+
+////////////////////////////////
+// layout
+///////////////////////////////
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  background-color: $background-color;
+}
+
+// stupid bootstrap
+body {
+  font-size: 1em !important;
+}
+
 // Pages
 
-.page {
-
+#page {
+  font-size: 1.3em;
+  position: relative;
   max-width: 1100px;
   margin: 0 auto;
   position: relative;
   min-height: 400px;
-  td {
-    vertical-align: top;
-  }
-  h1 {
-    font-family: planet-benson-2;
-    text-align: center;
-  }
 
-  h2 {
-    color: black;
-    font-size: 0.9em;
-    line-height: 1.2em;
+  #page-body {
+    position: relative;
+    table td:nth-child(1) {
+      z-index: 300;
+    }
   }
 
-  h3 {
-    font-size: 0.8em;
-  }
-
-
-  .page-body {
-    font-size: 1.3em;
+  #menu {
     float: left;
-    overflow: wrap;
+    //position: absolute;
+    //top: 0;
+    //left: 0;
+    z-index: 300;
   }
+
   // Fancy unordered list
   .fancy-ul {
     ul {
@@ -149,22 +159,22 @@ img {
       div { margin-bottom: 1em;}
     }
   }
-
-  .SibLogo {
-    width: 200px;
-    float: right;
-  }
-
-
 }
 
 ////////////////////////
-@import "siblogo";
-
-
-
-
 $logo-size: 175px;
+
+.SibLogo {
+  width: 200px;
+  margin: 0 auto;
+}
+.sib-logo-header {
+  position: absolute;
+  right: 0;
+  width: $logo-size;
+  height: $logo-size;
+}
+
 .shcalogo img {
   width: $logo-size;
   height: $logo-size;
@@ -174,6 +184,8 @@ $logo-size: 175px;
   width: auto;
 }
 
+
+// Pages
 /* Set padding to keep content from hitting the edges */
 .breaking-news {
   display: block;
@@ -205,7 +217,7 @@ $logo-size: 175px;
   padding-top: 40px;
 };
 
-.home-header {
+.home-header, header {
   @include stretch-x;
   position: relative;
   font-size: 2em;
@@ -243,7 +255,6 @@ $logo-size: 175px;
 
  .judges {
    @include stretch-x;
-
     .fancy-ul {
      max-width: 20em;
      margin: 0 auto;
@@ -251,6 +262,15 @@ $logo-size: 175px;
      font-weight: bold;
    }
  }
+
+
+
+.hotels #page-body {
+}
+
+.extra-indent {
+    margin-left: 4.0em;
+}
 
 $break-medium: 1000px;
 @media screen and (max-width: $break-medium) {

@@ -1,0 +1,15 @@
+<div id="page">
+    <div ng-show="showHomeHeader()" x-directive home-header></div>
+    <div ng-hide="showHomeHeader()" x-directive header></div>
+
+    <div id="page-body">
+        <table><tr>
+            <td><div id="menu" x-directive menu></div></td>
+            <td>
+                <div class="page-body">
+                    <div ng-transclude></div>
+                </div>
+            </td>
+        </tr></table>
+    </div>
+</div>

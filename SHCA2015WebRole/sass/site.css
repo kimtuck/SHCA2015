@@ -11,7 +11,7 @@
   src: url("FontAwesome/assets/fonts/fontawesome-webfont.eot?#iefix&v=4.2.0") format("embedded-opentype"), url("FontAwesome/assets/fonts/fontawesome-webfont.woff?v=4.2.0") format("woff"), url("FontAwesome/assets/fonts/fontawesome-webfont.ttf?v=4.2.0") format("truetype"), url("FontAwesome/assets/fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
-.fa, .icon-home, .icon-hotels, .icon-show-site, .icon-area-attractions, .icon-area, .icon-paw, .page .fancy-ul li:before, .icon-schedule, .icon-committees, .icon-judges, .icon-info-book {
+.fa, .icon-home, .icon-hotels, .icon-show-site, .icon-area-attractions, .icon-area, .icon-paw, #page .fancy-ul li:before, .icon-schedule, .icon-committees, .icon-judges, .icon-info-book {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -68,9 +68,9 @@
 .pull-left {
   float: left; }
 
-.fa.pull-left, .pull-left.icon-home, .pull-left.icon-hotels, .pull-left.icon-show-site, .pull-left.icon-area-attractions, .pull-left.icon-area, .pull-left.icon-paw, .page .fancy-ul li.pull-left:before, .pull-left.icon-schedule, .pull-left.icon-committees, .pull-left.icon-judges, .pull-left.icon-info-book {
+.fa.pull-left, .pull-left.icon-home, .pull-left.icon-hotels, .pull-left.icon-show-site, .pull-left.icon-area-attractions, .pull-left.icon-area, .pull-left.icon-paw, #page .fancy-ul li.pull-left:before, .pull-left.icon-schedule, .pull-left.icon-committees, .pull-left.icon-judges, .pull-left.icon-info-book {
   margin-right: .3em; }
-.fa.pull-right, .pull-right.icon-home, .pull-right.icon-hotels, .pull-right.icon-show-site, .pull-right.icon-area-attractions, .pull-right.icon-area, .pull-right.icon-paw, .page .fancy-ul li.pull-right:before, .pull-right.icon-schedule, .pull-right.icon-committees, .pull-right.icon-judges, .pull-right.icon-info-book {
+.fa.pull-right, .pull-right.icon-home, .pull-right.icon-hotels, .pull-right.icon-show-site, .pull-right.icon-area-attractions, .pull-right.icon-area, .pull-right.icon-paw, #page .fancy-ul li.pull-right:before, .pull-right.icon-schedule, .pull-right.icon-committees, .pull-right.icon-judges, .pull-right.icon-info-book {
   margin-left: .3em; }
 
 .fa-spin {
@@ -1378,7 +1378,7 @@
 .fa-child:before {
   content: ""; }
 
-.fa-paw:before, .icon-paw:before, .page .fancy-ul li:before {
+.fa-paw:before, .icon-paw:before, #page .fancy-ul li:before {
   content: ""; }
 
 .fa-spoon:before {
@@ -1662,14 +1662,16 @@
   content: ""; }
 
 .nav {
+  z-index: 2;
   float: left;
+  width: 8em;
+  margin-right: 1.5em;
   text-align: center;
   font-size: 0.9em;
   /* Adding some background color to the different menu items */ }
   .nav .icon {
     font-size: 1.6em; }
   .nav ul {
-    max-width: 1240px;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -1677,10 +1679,8 @@
     font-weight: 300; }
   .nav li {
     display: block;
-    min-width: 4.5em;
     padding: 10px; }
     .nav li div {
-      min-width: 4.5em;
       display: block;
       color: white;
       text-decoration: none; }
@@ -1705,195 +1705,14 @@
 div, button {
   -webkit-tap-highlight-color: transparent; }
 
-/* Hover effect for the whole navigation to make the hovered item stand out */
-.xxignore {
-  /* For screen bigger than 800px */
-  /* The "tablet" and "mobile" version */
-  /* CSS specific to the 2x3 columns version */
-  /* Adapting the font size and width for smaller screns*/
-  /* Styling the toggle menu link and hiding it */ }
-  @media (min-width: 50em) {
-    .xxignore {
-      /* Transforms the list into a horizontal navigation */
-      /* Placing the icon */ }
-      .xxignore .nav li {
-        width: 16.66666666666667%;
-        text-align: center; }
-      .xxignore .nav div {
-        display: block;
-        width: auto; }
-      .xxignore .icon {
-        padding-top: 0.5em; }
-      .xxignore .icon + span {
-        margin-top: 0.2em;
-        -webkit-transition: margin .5s;
-        -moz-transition: margin .5s;
-        -o-transition: margin .5s;
-        -ms-transition: margin .5s;
-        transition: margin .5s; }
-      .xxignore .no-touch .nav div:hover,
-      .xxignore .nav div:active,
-      .xxignore .nav div:focus {
-        height: auto; } }
-  @media (min-width: 50em) and (max-width: 61.25em) {
-    .xxignore {
-      /* Size and font adjustments to make it fit into the screen*/ }
-      .xxignore .nav ul {
-        font-size: 1.2em; } }
-  @media (max-width: 49.938em) {
-    .xxignore {
-      /* Instead of adding a border, we transition the background color */ }
-      .xxignore .no-touch .nav ul li:nth-child(6n+1) div:hover,
-      .xxignore .no-touch .nav ul li:nth-child(6n+1) div:active,
-      .xxignore .no-touch .nav ul li:nth-child(6n+1) div:focus {
-        background: #e37714; }
-      .xxignore .no-touch .nav li:nth-child(6n+2) div:hover,
-      .xxignore .no-touch .nav li:nth-child(6n+2) div:active,
-      .xxignore .no-touch .nav li:nth-child(6n+2) div:focus {
-        background: #f5a029; }
-      .xxignore .no-touch .nav li:nth-child(6n+3) a:hover,
-      .xxignore .no-touch .nav li:nth-child(6n+3) a:active,
-      .xxignore .no-touch .nav li:nth-child(6n+3) a:focus {
-        background: #2ca8db; }
-      .xxignore .no-touch .nav li:nth-child(6n+4) a:hover,
-      .xxignore .no-touch .nav li:nth-child(6n+4) a:active,
-      .xxignore .no-touch .nav li:nth-child(6n+4) a:focus {
-        background: #1f78b0; }
-      .xxignore .no-touch .nav li:nth-child(6n+5) a:hover,
-      .xxignore .no-touch .nav li:nth-child(6n+5) a:active,
-      .xxignore .no-touch .nav li:nth-child(6n+5) a:focus {
-        background: #27465a; }
-      .xxignore .no-touch .nav li:nth-child(6n+6) a:hover,
-      .xxignore .no-touch .nav li:nth-child(6n+6) a:active,
-      .xxignore .no-touch .nav li:nth-child(6n+6) a:focus {
-        background: #203644; }
-      .xxignore .nav ul li {
-        -webkit-transition: background 0.5s;
-        -moz-transition: background 0.5s;
-        -o-transition: background 0.5s;
-        -ms-transition: background 0.5s;
-        transition: background 0.5s; } }
-  @media (min-width: 32.5em) and (max-width: 49.938em) {
-    .xxignore {
-      /* Creating the 2 column layout using floating elements once again */
-      /* Adding some padding to make the elements look nicer*/
-      /* Displaying the icons on the left, and the text on the right side using inlin-block*/
-      /* Adaptating to the icons to animate the size and border of the rounded background in a more discreet way */
-      /* Transition effect on the border color */ }
-      .xxignore .nav li {
-        display: block;
-        float: left;
-        width: 50%; }
-      .xxignore .nav a {
-        padding: 0.8em; }
-      .xxignore .nav li span,
-      .xxignore .nav li span.icon {
-        display: inline-block; }
-      .xxignore .nav li span.icon {
-        width: 50%; }
-      .xxignore .nav li .icon + span {
-        font-size: 1em; }
-      .xxignore .icon + span {
-        position: relative;
-        top: -0.2em; }
-      .xxignore .nav li i {
-        display: inline-block;
-        padding: 8% 9%;
-        border: 4px solid transparent;
-        border-radius: 50%;
-        font-size: 1.5em;
-        background: rgba(255, 255, 255, 0.1);
-        -webkit-transition: border .5s;
-        -moz-transition: border .5s;
-        -o-transition: border .5s;
-        -ms-transition: border .5s;
-        transition: border .5s; }
-      .xxignore .no-touch .nav li:hover i,
-      .xxignore .no-touch .nav li:active i,
-      .xxignore .no-touch .nav li:focus i {
-        border: 4px solid rgba(255, 255, 255, 0.1); } }
-  @media (min-width: 32.5em) and (max-width: 38.688em) {
-    .xxignore .nav li span.icon {
-      width: 50%; }
-    .xxignore .nav li .icon + span {
-      font-size: 0.9em; } }
-  .xxignore .nav .navtoogle {
-    display: none;
-    width: 100%;
-    padding: 0.5em 0.5em 0.8em;
-    font-family: 'Lato',Calibri,Arial,sans-serif;
-    font-weight: normal;
-    text-align: left;
-    color: #07100f;
-    font-size: 1.2em;
-    background: none;
-    border: none;
-    border-bottom: 4px solid #dddddd;
-    cursor: pointer; }
-  .xxignore .icon-menu {
-    position: relative;
-    top: 3px;
-    line-height: 0;
-    font-size: 1.6em; }
-  @media (max-width: 32.438em) {
-    .xxignore {
-      /* Unhiding the styled menu link */
-      /* Animating the height of the navigation when the button is clicked */
-      /* When JavaScript is disabled, we hide the menu */
-      /* When JavaScript is enabled, we hide the menu */
-      /* Displaying the menu when the user has clicked on the button*/
-      /* Adapting the layout of the menu for smaller screens : icon on the left and text on the right*/
-      /* Adding a left border of 8 px with a different color for each menu item*/
-      /* make the nav bigger on touch screens */ }
-      .xxignore .nav .navtoogle {
-        margin: 0;
-        display: block; }
-      .xxignore .no-js .nav ul {
-        max-height: 30em;
-        overflow: hidden; }
-      .xxignore .js .nav ul {
-        max-height: 0em;
-        overflow: hidden; }
-      .xxignore .js .nav .active + ul {
-        max-height: 30em;
-        overflow: hidden;
-        -webkit-transition: max-height .4s;
-        -moz-transition: max-height .4s;
-        -o-transition: max-height .4s;
-        -ms-transition: max-height .4s;
-        transition: max-height .4s; }
-      .xxignore .nav li span {
-        display: inline-block;
-        height: 100%; }
-      .xxignore .nav a {
-        padding: 0.5em; }
-      .xxignore .icon + span {
-        margin-left: 1em;
-        font-size: 0.8em; }
-      .xxignore .nav li:nth-child(6n+1) {
-        border-left: 8px solid #ae4e01; }
-      .xxignore .nav li:nth-child(6n+2) {
-        border-left: 8px solid #bf7514; }
-      .xxignore .nav li:nth-child(6n+3) {
-        border-left: 8px solid #0d6f96; }
-      .xxignore .nav li:nth-child(6n+4) {
-        border-left: 8px solid #0a4b75; }
-      .xxignore .nav li:nth-child(6n+5) {
-        border-left: 8px solid #10222c; }
-      .xxignore .nav li:nth-child(6n+6) {
-        border-left: 8px solid #091219; }
-      .xxignore .touch .nav a {
-        padding: 0.8em; } }
-
-table table {
+.fancy-table {
   background: #D3E4E5;
   border: 1px solid gray;
   border-collapse: collapse;
   color: #fff;
   font: verdana, arial, helvetica, sans-serif;
-  font-size: 1.1em;
   width: 100%; }
-  table table caption {
+  .fancy-table caption {
     border: 1px solid #5C443A;
     color: #5C443A;
     font-weight: bold;
@@ -1901,62 +1720,54 @@ table table {
     padding: 6px 4px 8px 0px;
     text-align: center;
     text-transform: uppercase; }
-  table table td, table table th {
+  .fancy-table td, .fancy-table th {
     color: #363636;
     padding: .4em; }
-  table table tr {
+  .fancy-table tr {
     border: 1px dotted gray; }
-  table table thead th, table table tfoot th {
+  .fancy-table thead th, .fancy-table tfoot th {
     background: #5C443A;
     color: #FFFFFF;
     padding: 3px 10px 3px 10px;
     text-align: left;
     text-transform: uppercase; }
-  table table tbody td a {
+  .fancy-table tbody td a {
     color: #363636;
     text-decoration: none; }
-  table table tbody td a:visited {
+  .fancy-table tbody td a:visited {
     color: gray;
     text-decoration: line-through; }
-  table table tbody td a:hover {
+  .fancy-table tbody td a:hover {
     text-decoration: underline; }
-  table table tbody th a {
+  .fancy-table tbody th a {
     color: #363636;
     font-weight: normal;
     text-decoration: none; }
-  table table tbody th a:hover {
+  .fancy-table tbody th a:hover {
     color: #363636; }
-  table table tbody td + td + td + td a {
+  .fancy-table tbody td + td + td + td a {
     background-image: url("http://www.admixweb.com/downloads/csstablegallery/bullet_blue.png");
     background-position: left center;
     background-repeat: no-repeat;
     color: #03476F;
     padding-left: 15px; }
-  table table tbody td + td + td + td a:visited {
+  .fancy-table tbody td + td + td + td a:visited {
     background-image: url("http://www.admixweb.com/downloads/csstablegallery/bullet_white.png");
     background-position: left center;
     background-repeat: no-repeat; }
-  table table tbody th, table table tbody td {
+  .fancy-table tbody th, .fancy-table tbody td {
     text-align: left;
     vertical-align: top; }
-  table table tfoot td {
+  .fancy-table tfoot td {
     background: #5C443A;
     color: #FFFFFF;
     padding-top: 3px; }
-  table table .odd {
+  .fancy-table .odd {
     background: #fff; }
-  table table tbody tr:hover {
+  .fancy-table tbody tr:hover {
     background: #99BCBF;
     border: 1px solid #03476F;
     color: #000000; }
-
-body {
-  width: 80%;
-  margin: 0 auto;
-  background-color: #dfd1bf; }
-
-.shcalogo-footer {
-  width: 20px; }
 
 @font-face {
   font-family: planet-benson-2;
@@ -1976,54 +1787,75 @@ textarea {
 ul, ol {
   margin: 0; }
 
-body {
-  font-size: 1em !important; }
-
 img {
   vertical-align: top; }
 
-.page {
+td {
+  vertical-align: top; }
+
+h1 {
+  font-family: planet-benson-2;
+  text-align: center; }
+
+h2 {
+  color: black;
+  font-size: 0.9em;
+  line-height: 1.2em; }
+
+h3 {
+  font-size: 0.8em; }
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #dfd1bf; }
+
+body {
+  font-size: 1em !important; }
+
+#page {
+  font-size: 1.3em;
+  position: relative;
   max-width: 1100px;
   margin: 0 auto;
   position: relative;
   min-height: 400px; }
-  .page td {
-    vertical-align: top; }
-  .page h1 {
-    font-family: planet-benson-2;
-    text-align: center; }
-  .page h2 {
-    color: black;
-    font-size: 0.9em;
-    line-height: 1.2em; }
-  .page h3 {
-    font-size: 0.8em; }
-  .page .page-body {
-    font-size: 1.3em;
+  #page #page-body {
+    position: relative; }
+    #page #page-body table td:nth-child(1) {
+      z-index: 300; }
+  #page #menu {
     float: left;
-    overflow: wrap; }
-  .page .fancy-ul ul {
+    z-index: 300; }
+  #page .fancy-ul ul {
     margin: 0.5em 0 0.5em 3em;
     list-style-type: none; }
-  .page .fancy-ul li {
+  #page .fancy-ul li {
     display: block;
     margin-bottom: 0.8em; }
-  .page .fancy-ul li:before {
+  #page .fancy-ul li:before {
     margin: 0 0.5em 0 -1.5em;
     color: #696838; }
-  .page .hotels address {
+  #page .hotels address {
     display: inline-block;
     text-align: center; }
-  .page .hotels img {
+  #page .hotels img {
     margin-bottom: 45px; }
-  .page .hotels .hotel-details ul {
+  #page .hotels .hotel-details ul {
     margin-left: 30px;
     margin-bottom: 1em; }
-  .page .hotels .hotel-details div {
+  #page .hotels .hotel-details div {
     margin-bottom: 1em; }
-  .page .SibLogo {
-    width: 200px;
-    float: right; }
+
+.SibLogo {
+  width: 200px;
+  margin: 0 auto; }
+
+.sib-logo-header {
+  position: absolute;
+  right: 0;
+  width: 175px;
+  height: 175px; }
 
 .shcalogo img {
   width: 175px;
@@ -2058,7 +1890,7 @@ img {
   padding-left: 150px;
   padding-top: 40px; }
 
-.home-header {
+.home-header, header {
   position: absolute;
   left: 0;
   right: 0;
@@ -2066,22 +1898,22 @@ img {
   font-size: 2em;
   margin-top: 20px;
   margin-bottom: 10px; }
-  .home-header .shcalogo img {
+  .home-header .shcalogo img, header .shcalogo img {
     margin-top: 0px;
     position: absolute; }
-  .home-header .dateinfo .title {
+  .home-header .dateinfo .title, header .dateinfo .title {
     font-family: planet-benson-2;
     text-align: center;
     color: #1691be;
     text-align: center;
     font-size: 1.0em;
     margin-bottom: 0.4em; }
-  .home-header .dateinfo .date {
+  .home-header .dateinfo .date, header .dateinfo .date {
     font-size: 0.8em;
     margin-bottom: 0.6em;
     text-align: center;
     color: #1691be; }
-  .home-header .dateinfo .address span {
+  .home-header .dateinfo .address span, header .dateinfo .address span {
     display: block;
     text-align: center;
     font-size: 0.65em;
@@ -2096,6 +1928,9 @@ img {
     margin: 0 auto;
     font-family: Kameron;
     font-weight: bold; }
+
+.extra-indent {
+  margin-left: 4.0em; }
 
 @media screen and (max-width: 1000px) {
   .shcalogo {
