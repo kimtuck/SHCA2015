@@ -224,12 +224,16 @@
     <Content Include="stylesheets\screen.css" />
     <Content Include="stylesheets\site.css" />
     <Content Include="UI\App\shca.js" />
+    <Content Include="UI\Directives\header\header.html" />
+    <Content Include="UI\Directives\header\header.js" />
     <Content Include="UI\Directives\home-header\home-header.html" />
     <Content Include="UI\Directives\home-header\home-header.js" />
     <Content Include="UI\Directives\Logo\Logo.html" />
     <Content Include="UI\Directives\Logo\logo.js" />
     <Content Include="UI\Directives\Menu\Menu.html" />
     <Content Include="UI\Directives\Menu\Menu.js" />
+    <Content Include="UI\Directives\Page\Page.html" />
+    <Content Include="UI\Directives\Page\Page.js" />
     <Content Include="UI\Pages\Area Attractions.html" />
     <Content Include="UI\Pages\BreakingNews.html" />
     <Content Include="UI\Pages\Committees.html" />
