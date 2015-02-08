@@ -2,12 +2,400 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06d5b400-8f40-4e29-b941-e0d7338a50b9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Hotels.html" afterPath="$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Hotels.html" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\SHCA2015WebRole\Scripts\jquery-1.10.2.intellisense.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\SHCA2015WebRole\Scripts\jquery-1.10.2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\SHCA2015WebRole\Scripts\jquery-1.10.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\SHCA2015WebRole\Scripts\jquery-1.10.2.min.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\SHCA2015WebRole\Scripts\modernizr-2.6.2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Antlr.3.4.1.9004\Antlr.3.4.1.9004.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\EntityFramework.6.1.0\EntityFramework.6.1.0.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\EntityFramework.6.1.0\content\App.config.transform" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\EntityFramework.6.1.0\content\Web.config.transform" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\EntityFramework.6.1.0\lib\net40\EntityFramework.SqlServer.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\EntityFramework.6.1.0\lib\net40\EntityFramework.SqlServer.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\EntityFramework.6.1.0\lib\net40\EntityFramework.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\EntityFramework.6.1.0\lib\net40\EntityFramework.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\EntityFramework.6.1.0\tools\EntityFramework.PowerShell.Utility.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\EntityFramework.6.1.0\tools\EntityFramework.PowerShell.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\EntityFramework.6.1.0\tools\EntityFramework.psd1" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\EntityFramework.6.1.0\tools\EntityFramework.psm1" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\EntityFramework.6.1.0\tools\about_EntityFramework.help.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\EntityFramework.6.1.0\tools\init.ps1" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\EntityFramework.6.1.0\tools\install.ps1" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\EntityFramework.6.1.0\tools\migrate.exe" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.AspNet.Identity.Core.2.0.0\Microsoft.AspNet.Identity.Core.2.0.0.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.AspNet.Identity.Core.2.0.0\lib\net45\Microsoft.AspNet.Identity.Core.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.AspNet.Identity.Core.2.0.0\lib\net45\Microsoft.AspNet.Identity.Core.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.AspNet.Identity.EntityFramework.2.0.0\Microsoft.AspNet.Identity.EntityFramework.2.0.0.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.AspNet.Identity.EntityFramework.2.0.0\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.AspNet.Identity.EntityFramework.2.0.0\lib\net45\Microsoft.AspNet.Identity.EntityFramework.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.AspNet.Identity.Owin.2.0.0\Microsoft.AspNet.Identity.Owin.2.0.0.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.AspNet.Identity.Owin.2.0.0\lib\net45\Microsoft.AspNet.Identity.Owin.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.AspNet.Identity.Owin.2.0.0\lib\net45\Microsoft.AspNet.Identity.Owin.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.AspNet.Mvc.5.1.2\Content\Web.config.install.xdt" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.AspNet.Mvc.5.1.2\Content\Web.config.uninstall.xdt" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.AspNet.Mvc.5.1.2\Microsoft.AspNet.Mvc.5.1.2.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.AspNet.Mvc.5.1.2\lib\net45\System.Web.Mvc.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.AspNet.Mvc.5.1.2\lib\net45\System.Web.Mvc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.AspNet.Razor.3.1.2\Microsoft.AspNet.Razor.3.1.2.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.AspNet.Razor.3.1.2\lib\net45\System.Web.Razor.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.AspNet.Razor.3.1.2\lib\net45\System.Web.Razor.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.AspNet.WebPages.3.1.2\Content\Web.config.install.xdt" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.AspNet.WebPages.3.1.2\Content\Web.config.uninstall.xdt" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.AspNet.WebPages.3.1.2\Microsoft.AspNet.WebPages.3.1.2.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.AspNet.WebPages.3.1.2\lib\net45\System.Web.Helpers.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.AspNet.WebPages.3.1.2\lib\net45\System.Web.Helpers.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.AspNet.WebPages.3.1.2\lib\net45\System.Web.WebPages.Deployment.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.AspNet.WebPages.3.1.2\lib\net45\System.Web.WebPages.Deployment.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.AspNet.WebPages.3.1.2\lib\net45\System.Web.WebPages.Razor.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.AspNet.WebPages.3.1.2\lib\net45\System.Web.WebPages.Razor.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.AspNet.WebPages.3.1.2\lib\net45\System.Web.WebPages.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.AspNet.WebPages.3.1.2\lib\net45\System.Web.WebPages.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\Microsoft.Data.Edm.5.6.0.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\net40\Microsoft.Data.Edm.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\net40\Microsoft.Data.Edm.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\net40\de\Microsoft.Data.Edm.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\net40\es\Microsoft.Data.Edm.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\net40\fr\Microsoft.Data.Edm.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\net40\it\Microsoft.Data.Edm.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\net40\ja\Microsoft.Data.Edm.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\net40\ko\Microsoft.Data.Edm.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\net40\ru\Microsoft.Data.Edm.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\net40\zh-Hans\Microsoft.Data.Edm.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\net40\zh-Hant\Microsoft.Data.Edm.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\portable-net40+sl5+wp8+win8\Microsoft.Data.Edm.Portable.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\portable-net40+sl5+wp8+win8\Microsoft.Data.Edm.Portable.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\portable-net40+sl5+wp8+win8\de\Microsoft.Data.Edm.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\portable-net40+sl5+wp8+win8\es\Microsoft.Data.Edm.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\portable-net40+sl5+wp8+win8\fr\Microsoft.Data.Edm.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\portable-net40+sl5+wp8+win8\it\Microsoft.Data.Edm.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\portable-net40+sl5+wp8+win8\ja\Microsoft.Data.Edm.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\portable-net40+sl5+wp8+win8\ko\Microsoft.Data.Edm.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\portable-net40+sl5+wp8+win8\ru\Microsoft.Data.Edm.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\portable-net40+sl5+wp8+win8\zh-Hans\Microsoft.Data.Edm.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\portable-net40+sl5+wp8+win8\zh-Hant\Microsoft.Data.Edm.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\sl4\Microsoft.Data.Edm.SL.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\sl4\Microsoft.Data.Edm.SL.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\sl4\de\Microsoft.Data.Edm.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\sl4\es\Microsoft.Data.Edm.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\sl4\fr\Microsoft.Data.Edm.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\sl4\it\Microsoft.Data.Edm.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\sl4\ja\Microsoft.Data.Edm.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\sl4\ko\Microsoft.Data.Edm.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\sl4\ru\Microsoft.Data.Edm.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\sl4\zh-Hans\Microsoft.Data.Edm.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Edm.5.6.0\lib\sl4\zh-Hant\Microsoft.Data.Edm.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\Microsoft.Data.OData.5.6.0.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\net40\Microsoft.Data.OData.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\net40\Microsoft.Data.OData.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\net40\de\Microsoft.Data.OData.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\net40\es\Microsoft.Data.OData.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\net40\fr\Microsoft.Data.OData.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\net40\it\Microsoft.Data.OData.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\net40\ja\Microsoft.Data.OData.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\net40\ko\Microsoft.Data.OData.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\net40\ru\Microsoft.Data.OData.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\net40\zh-Hans\Microsoft.Data.OData.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\net40\zh-Hant\Microsoft.Data.OData.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\portable-net40+sl5+wp8+win8\Microsoft.Data.OData.Portable.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\portable-net40+sl5+wp8+win8\Microsoft.Data.OData.Portable.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\portable-net40+sl5+wp8+win8\de\Microsoft.Data.OData.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\portable-net40+sl5+wp8+win8\es\Microsoft.Data.OData.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\portable-net40+sl5+wp8+win8\fr\Microsoft.Data.OData.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\portable-net40+sl5+wp8+win8\it\Microsoft.Data.OData.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\portable-net40+sl5+wp8+win8\ja\Microsoft.Data.OData.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\portable-net40+sl5+wp8+win8\ko\Microsoft.Data.OData.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\portable-net40+sl5+wp8+win8\ru\Microsoft.Data.OData.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\portable-net40+sl5+wp8+win8\zh-Hans\Microsoft.Data.OData.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\portable-net40+sl5+wp8+win8\zh-Hant\Microsoft.Data.OData.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\sl4\Microsoft.Data.OData.SL.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\sl4\Microsoft.Data.OData.SL.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\sl4\de\Microsoft.Data.OData.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\sl4\es\Microsoft.Data.OData.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\sl4\fr\Microsoft.Data.OData.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\sl4\it\Microsoft.Data.OData.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\sl4\ja\Microsoft.Data.OData.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\sl4\ko\Microsoft.Data.OData.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\sl4\ru\Microsoft.Data.OData.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\sl4\zh-Hans\Microsoft.Data.OData.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.OData.5.6.0\lib\sl4\zh-Hant\Microsoft.Data.OData.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\Microsoft.Data.Services.Client.5.6.0.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\net40\Microsoft.Data.Services.Client.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\net40\Microsoft.Data.Services.Client.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\net40\de\Microsoft.Data.Services.Client.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\net40\es\Microsoft.Data.Services.Client.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\net40\fr\Microsoft.Data.Services.Client.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\net40\it\Microsoft.Data.Services.Client.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\net40\ja\Microsoft.Data.Services.Client.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\net40\ko\Microsoft.Data.Services.Client.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\net40\ru\Microsoft.Data.Services.Client.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\net40\zh-Hans\Microsoft.Data.Services.Client.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\net40\zh-Hant\Microsoft.Data.Services.Client.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\portable-net45+sl5+wp8+win8\Microsoft.Data.Services.Client.Portable.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\portable-net45+sl5+wp8+win8\Microsoft.Data.Services.Client.Portable.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\portable-net45+sl5+wp8+win8\de\Microsoft.Data.Services.Client.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\portable-net45+sl5+wp8+win8\es\Microsoft.Data.Services.Client.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\portable-net45+sl5+wp8+win8\fr\Microsoft.Data.Services.Client.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\portable-net45+sl5+wp8+win8\it\Microsoft.Data.Services.Client.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\portable-net45+sl5+wp8+win8\ja\Microsoft.Data.Services.Client.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\portable-net45+sl5+wp8+win8\ko\Microsoft.Data.Services.Client.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\portable-net45+sl5+wp8+win8\ru\Microsoft.Data.Services.Client.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\portable-net45+sl5+wp8+win8\zh-Hans\Microsoft.Data.Services.Client.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\portable-net45+sl5+wp8+win8\zh-Hant\Microsoft.Data.Services.Client.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\sl4\Microsoft.Data.Services.Client.SL.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\sl4\Microsoft.Data.Services.Client.SL.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\sl4\de\Microsoft.Data.Services.Client.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\sl4\es\Microsoft.Data.Services.Client.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\sl4\fr\Microsoft.Data.Services.Client.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\sl4\it\Microsoft.Data.Services.Client.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\sl4\ja\Microsoft.Data.Services.Client.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\sl4\ko\Microsoft.Data.Services.Client.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\sl4\ru\Microsoft.Data.Services.Client.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\sl4\zh-Hans\Microsoft.Data.Services.Client.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Data.Services.Client.5.6.0\lib\sl4\zh-Hant\Microsoft.Data.Services.Client.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.2.1.0\Microsoft.Owin.2.1.0.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.2.1.0\lib\net40\Microsoft.Owin.XML" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.2.1.0\lib\net40\Microsoft.Owin.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.2.1.0\lib\net45\Microsoft.Owin.XML" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.2.1.0\lib\net45\Microsoft.Owin.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.Host.SystemWeb.2.1.0\Microsoft.Owin.Host.SystemWeb.2.1.0.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.Host.SystemWeb.2.1.0\lib\net40\Microsoft.Owin.Host.SystemWeb.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.Host.SystemWeb.2.1.0\lib\net40\Microsoft.Owin.Host.SystemWeb.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.Host.SystemWeb.2.1.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.Host.SystemWeb.2.1.0\lib\net45\Microsoft.Owin.Host.SystemWeb.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.Security.2.1.0\Microsoft.Owin.Security.2.1.0.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.Security.2.1.0\lib\net45\Microsoft.Owin.Security.XML" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.Security.2.1.0\lib\net45\Microsoft.Owin.Security.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.Security.Cookies.2.1.0\Microsoft.Owin.Security.Cookies.2.1.0.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.Security.Cookies.2.1.0\lib\net45\Microsoft.Owin.Security.Cookies.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.Security.Cookies.2.1.0\lib\net45\Microsoft.Owin.Security.Cookies.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.Security.Facebook.2.1.0\Microsoft.Owin.Security.Facebook.2.1.0.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.Security.Facebook.2.1.0\lib\net45\Microsoft.Owin.Security.Facebook.XML" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.Security.Facebook.2.1.0\lib\net45\Microsoft.Owin.Security.Facebook.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.Security.Google.2.1.0\Microsoft.Owin.Security.Google.2.1.0.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.Security.Google.2.1.0\lib\net45\Microsoft.Owin.Security.Google.XML" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.Security.Google.2.1.0\lib\net45\Microsoft.Owin.Security.Google.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.Security.MicrosoftAccount.2.1.0\Microsoft.Owin.Security.MicrosoftAccount.2.1.0.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.Security.MicrosoftAccount.2.1.0\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.XML" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.Security.MicrosoftAccount.2.1.0\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.Security.OAuth.2.1.0\Microsoft.Owin.Security.OAuth.2.1.0.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.Security.OAuth.2.1.0\lib\net45\Microsoft.Owin.Security.OAuth.XML" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.Security.OAuth.2.1.0\lib\net45\Microsoft.Owin.Security.OAuth.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.Security.Twitter.2.1.0\Microsoft.Owin.Security.Twitter.2.1.0.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.Security.Twitter.2.1.0\lib\net45\Microsoft.Owin.Security.Twitter.XML" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.Owin.Security.Twitter.2.1.0\lib\net45\Microsoft.Owin.Security.Twitter.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.jQuery.Unobtrusive.Validation.3.1.2\Content\Scripts\jquery.validate.unobtrusive.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.jQuery.Unobtrusive.Validation.3.1.2\Content\Scripts\jquery.validate.unobtrusive.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Microsoft.jQuery.Unobtrusive.Validation.3.1.2\Microsoft.jQuery.Unobtrusive.Validation.3.1.2.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Modernizr.2.6.2\Content\Scripts\modernizr-2.6.2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Modernizr.2.6.2\Modernizr.2.6.2.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Modernizr.2.6.2\Tools\common.ps1" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Modernizr.2.6.2\Tools\install.ps1" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Modernizr.2.6.2\Tools\uninstall.ps1" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Newtonsoft.Json.5.0.6\Newtonsoft.Json.5.0.6.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Newtonsoft.Json.5.0.6\lib\net20\Newtonsoft.Json.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Newtonsoft.Json.5.0.6\lib\net20\Newtonsoft.Json.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Newtonsoft.Json.5.0.6\lib\net35\Newtonsoft.Json.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Newtonsoft.Json.5.0.6\lib\net35\Newtonsoft.Json.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Newtonsoft.Json.5.0.6\lib\net40\Newtonsoft.Json.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Newtonsoft.Json.5.0.6\lib\net40\Newtonsoft.Json.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Newtonsoft.Json.5.0.6\lib\netcore45\Newtonsoft.Json.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Newtonsoft.Json.5.0.6\lib\netcore45\Newtonsoft.Json.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Newtonsoft.Json.5.0.6\lib\portable-net40%2Bsl4%2Bwp7%2Bwin8\Newtonsoft.Json.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Newtonsoft.Json.5.0.6\lib\portable-net40%2Bsl4%2Bwp7%2Bwin8\Newtonsoft.Json.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Newtonsoft.Json.5.0.6\lib\portable-net40+sl4+wp7+win8\Newtonsoft.Json.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Newtonsoft.Json.5.0.6\lib\portable-net40+sl4+wp7+win8\Newtonsoft.Json.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Newtonsoft.Json.5.0.6\lib\portable-net45%2Bwp80%2Bwin8\Newtonsoft.Json.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Newtonsoft.Json.5.0.6\lib\portable-net45%2Bwp80%2Bwin8\Newtonsoft.Json.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Newtonsoft.Json.5.0.6\lib\portable-net45+wp80+win8\Newtonsoft.Json.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Newtonsoft.Json.5.0.6\lib\portable-net45+wp80+win8\Newtonsoft.Json.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Respond.1.2.0\Respond.1.2.0.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Respond.1.2.0\content\Scripts\respond.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\Respond.1.2.0\content\Scripts\respond.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\System.Spatial.5.6.0.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\net40\System.Spatial.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\net40\System.Spatial.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\net40\de\System.Spatial.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\net40\es\System.Spatial.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\net40\fr\System.Spatial.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\net40\it\System.Spatial.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\net40\ja\System.Spatial.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\net40\ko\System.Spatial.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\net40\ru\System.Spatial.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\net40\zh-Hans\System.Spatial.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\net40\zh-Hant\System.Spatial.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\portable-net40+sl5+wp8+win8\System.Spatial.Portable.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\portable-net40+sl5+wp8+win8\System.Spatial.Portable.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\portable-net40+sl5+wp8+win8\de\System.Spatial.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\portable-net40+sl5+wp8+win8\es\System.Spatial.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\portable-net40+sl5+wp8+win8\fr\System.Spatial.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\portable-net40+sl5+wp8+win8\it\System.Spatial.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\portable-net40+sl5+wp8+win8\ja\System.Spatial.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\portable-net40+sl5+wp8+win8\ko\System.Spatial.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\portable-net40+sl5+wp8+win8\ru\System.Spatial.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\portable-net40+sl5+wp8+win8\zh-Hans\System.Spatial.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\portable-net40+sl5+wp8+win8\zh-Hant\System.Spatial.Portable.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\sl4\System.Spatial.SL.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\sl4\System.Spatial.SL.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\sl4\de\System.Spatial.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\sl4\es\System.Spatial.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\sl4\fr\System.Spatial.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\sl4\it\System.Spatial.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\sl4\ja\System.Spatial.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\sl4\ko\System.Spatial.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\sl4\ru\System.Spatial.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\sl4\zh-Hans\System.Spatial.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\System.Spatial.5.6.0\lib\sl4\zh-Hant\System.Spatial.SL.resources.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\WebGrease.1.5.2\WebGrease.1.5.2.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\WebGrease.1.5.2\lib\WebGrease.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\WebGrease.1.5.2\tools\WG.exe" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\WindowsAzure.Storage.3.0.3.0\WindowsAzure.Storage.3.0.3.0.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\WindowsAzure.Storage.3.0.3.0\lib\net40\Microsoft.WindowsAzure.Storage.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\WindowsAzure.Storage.3.0.3.0\lib\net40\Microsoft.WindowsAzure.Storage.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\bootstrap.3.0.0\bootstrap.3.0.0.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\bootstrap.3.0.0\content\Content\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\bootstrap.3.0.0\content\Content\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\bootstrap.3.0.0\content\Scripts\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\bootstrap.3.0.0\content\Scripts\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\bootstrap.3.0.0\content\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\bootstrap.3.0.0\content\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\bootstrap.3.0.0\content\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\bootstrap.3.0.0\content\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\jQuery.1.10.2\Content\Scripts\jquery-1.10.2-vsdoc.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\jQuery.1.10.2\Content\Scripts\jquery-1.10.2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\jQuery.1.10.2\Content\Scripts\jquery-1.10.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\jQuery.1.10.2\Content\Scripts\jquery-1.10.2.min.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\jQuery.1.10.2\Tools\common.ps1" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\jQuery.1.10.2\Tools\install.ps1" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\jQuery.1.10.2\Tools\jquery-1.10.2.intellisense.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\jQuery.1.10.2\Tools\uninstall.ps1" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\jQuery.1.10.2\jQuery.1.10.2.nupkg" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\jQuery.Validation.1.11.1\Content\Scripts\jquery.validate-vsdoc.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\jQuery.Validation.1.11.1\Content\Scripts\jquery.validate.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\jQuery.Validation.1.11.1\Content\Scripts\jquery.validate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\SHCA2015\SHCA2015\packages\jQuery.Validation.1.11.1\jQuery.Validation.1.11.1.nupkg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Antlr3.Runtime.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Antlr3.Runtime.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole.Tests/App.config" afterPath="$PROJECT_DIR$/SHCA2015WebRole.Tests/App.config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/EntityFramework.SqlServer.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/EntityFramework.SqlServer.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/EntityFramework.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/EntityFramework.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.AspNet.Identity.Core.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.AspNet.Identity.Core.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.AspNet.Identity.EntityFramework.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.AspNet.Identity.EntityFramework.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.AspNet.Identity.Owin.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.AspNet.Identity.Owin.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Data.Edm.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Data.Edm.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/de/Microsoft.Data.Edm.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/de/Microsoft.Data.Edm.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/es/Microsoft.Data.Edm.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/es/Microsoft.Data.Edm.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/fr/Microsoft.Data.Edm.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/fr/Microsoft.Data.Edm.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/it/Microsoft.Data.Edm.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/it/Microsoft.Data.Edm.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/ja/Microsoft.Data.Edm.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/ja/Microsoft.Data.Edm.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/ko/Microsoft.Data.Edm.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/ko/Microsoft.Data.Edm.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/ru/Microsoft.Data.Edm.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/ru/Microsoft.Data.Edm.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/zh-Hans/Microsoft.Data.Edm.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/zh-Hans/Microsoft.Data.Edm.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/zh-Hant/Microsoft.Data.Edm.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/zh-Hant/Microsoft.Data.Edm.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Data.OData.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Data.OData.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/de/Microsoft.Data.OData.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/de/Microsoft.Data.OData.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/es/Microsoft.Data.OData.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/es/Microsoft.Data.OData.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/fr/Microsoft.Data.OData.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/fr/Microsoft.Data.OData.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/it/Microsoft.Data.OData.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/it/Microsoft.Data.OData.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/ja/Microsoft.Data.OData.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/ja/Microsoft.Data.OData.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/ko/Microsoft.Data.OData.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/ko/Microsoft.Data.OData.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/ru/Microsoft.Data.OData.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/ru/Microsoft.Data.OData.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/zh-Hans/Microsoft.Data.OData.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/zh-Hans/Microsoft.Data.OData.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/zh-Hant/Microsoft.Data.OData.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/zh-Hant/Microsoft.Data.OData.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Data.Services.Client.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Data.Services.Client.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/de/Microsoft.Data.Services.Client.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/de/Microsoft.Data.Services.Client.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/es/Microsoft.Data.Services.Client.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/es/Microsoft.Data.Services.Client.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/fr/Microsoft.Data.Services.Client.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/fr/Microsoft.Data.Services.Client.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/it/Microsoft.Data.Services.Client.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/it/Microsoft.Data.Services.Client.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/ja/Microsoft.Data.Services.Client.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/ja/Microsoft.Data.Services.Client.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/ko/Microsoft.Data.Services.Client.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/ko/Microsoft.Data.Services.Client.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/ru/Microsoft.Data.Services.Client.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/ru/Microsoft.Data.Services.Client.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/zh-Hans/Microsoft.Data.Services.Client.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/zh-Hans/Microsoft.Data.Services.Client.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/zh-Hant/Microsoft.Data.Services.Client.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/zh-Hant/Microsoft.Data.Services.Client.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.Host.SystemWeb.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.Host.SystemWeb.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.Security.Cookies.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.Security.Cookies.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.Security.Facebook.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.Security.Facebook.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.Security.Google.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.Security.Google.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.Security.MicrosoftAccount.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.Security.MicrosoftAccount.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.Security.OAuth.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.Security.OAuth.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.Security.Twitter.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.Security.Twitter.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.Security.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.Security.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.WindowsAzure.Storage.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.WindowsAzure.Storage.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Newtonsoft.Json.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Newtonsoft.Json.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole.Tests/SHCA2015WebRole.Tests.csproj" afterPath="$PROJECT_DIR$/SHCA2015WebRole.Tests/SHCA2015WebRole.Tests.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/SHCA2015WebRole.dll.config" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/SHCA2015WebRole.dll.config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/SHCA2015WebRole.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/SHCA2015WebRole.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/System.Spatial.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/System.Spatial.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/de/System.Spatial.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/de/System.Spatial.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/es/System.Spatial.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/es/System.Spatial.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/fr/System.Spatial.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/fr/System.Spatial.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/it/System.Spatial.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/it/System.Spatial.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/ja/System.Spatial.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/ja/System.Spatial.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/ko/System.Spatial.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/ko/System.Spatial.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/ru/System.Spatial.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/ru/System.Spatial.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/zh-Hans/System.Spatial.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/zh-Hans/System.Spatial.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/zh-Hant/System.Spatial.resources.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/zh-Hant/System.Spatial.resources.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/System.Web.Helpers.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/System.Web.Helpers.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/System.Web.Mvc.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/System.Web.Mvc.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/System.Web.Razor.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/System.Web.Razor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/System.Web.WebPages.Deployment.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/System.Web.WebPages.Deployment.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/System.Web.WebPages.Razor.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/System.Web.WebPages.Razor.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/System.Web.WebPages.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/System.Web.WebPages.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/Web.config" afterPath="$PROJECT_DIR$/SHCA2015WebRole/Web.config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/WebGrease.dll" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/WebGrease.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/SHCA2015WebRole/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/SHCA2015WebRole/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/SHCA2015WebRole/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/SHCA2015WebRole/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/packages.config" afterPath="$PROJECT_DIR$/SHCA2015WebRole/packages.config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole.Tests/packages.config" afterPath="$PROJECT_DIR$/SHCA2015WebRole.Tests/packages.config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/EntityFramework.SqlServer.xml" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/EntityFramework.SqlServer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/EntityFramework.xml" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/EntityFramework.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/Global.asax.cs" afterPath="$PROJECT_DIR$/SHCA2015WebRole/Global.asax.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.AspNet.Identity.Core.xml" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.AspNet.Identity.Core.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.AspNet.Identity.EntityFramework.xml" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.AspNet.Identity.EntityFramework.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.AspNet.Identity.Owin.xml" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.AspNet.Identity.Owin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Data.OData.xml" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Data.OData.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Data.Services.Client.xml" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Data.Services.Client.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.Host.SystemWeb.xml" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.Host.SystemWeb.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.Security.Cookies.xml" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.Security.Cookies.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.Security.Facebook.xml" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.Security.Facebook.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.Security.Google.xml" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.Security.Google.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.Security.OAuth.xml" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.Security.OAuth.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.Security.xml" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.Security.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.xml" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.Owin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.WindowsAzure.Storage.xml" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Microsoft.WindowsAzure.Storage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/Newtonsoft.Json.xml" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/Newtonsoft.Json.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/SHCA2015WebRole.csproj" afterPath="$PROJECT_DIR$/SHCA2015WebRole/SHCA2015WebRole.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/System.Spatial.xml" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/System.Spatial.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/System.Web.Helpers.xml" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/System.Web.Helpers.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/System.Web.Mvc.xml" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/System.Web.Mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/System.Web.Razor.xml" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/System.Web.Razor.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/bin/System.Web.WebPages.xml" afterPath="$PROJECT_DIR$/SHCA2015WebRole/bin/System.Web.WebPages.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/Scripts/_references.js" afterPath="$PROJECT_DIR$/SHCA2015WebRole/Scripts/_references.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/Content/bootstrap.css" afterPath="$PROJECT_DIR$/SHCA2015WebRole/Content/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/Scripts/bootstrap.js" afterPath="$PROJECT_DIR$/SHCA2015WebRole/Scripts/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/Content/bootstrap.min.css" afterPath="$PROJECT_DIR$/SHCA2015WebRole/Content/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/Scripts/bootstrap.min.js" afterPath="$PROJECT_DIR$/SHCA2015WebRole/Scripts/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/Scripts/jquery.validate-vsdoc.js" afterPath="$PROJECT_DIR$/SHCA2015WebRole/Scripts/jquery.validate-vsdoc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/Scripts/jquery.validate.js" afterPath="$PROJECT_DIR$/SHCA2015WebRole/Scripts/jquery.validate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/Scripts/jquery.validate.min.js" afterPath="$PROJECT_DIR$/SHCA2015WebRole/Scripts/jquery.validate.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/Scripts/jquery.validate.unobtrusive.js" afterPath="$PROJECT_DIR$/SHCA2015WebRole/Scripts/jquery.validate.unobtrusive.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/Scripts/jquery.validate.unobtrusive.min.js" afterPath="$PROJECT_DIR$/SHCA2015WebRole/Scripts/jquery.validate.unobtrusive.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/Scripts/respond.js" afterPath="$PROJECT_DIR$/SHCA2015WebRole/Scripts/respond.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/Scripts/respond.min.js" afterPath="$PROJECT_DIR$/SHCA2015WebRole/Scripts/respond.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SHCA2015.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1418089632721" ignored="false" />
+    <file path="/Dummy.txt" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1423191636303" ignored="false" />
     <file path="$PROJECT_DIR$/../../mdc-protractor/.idea/workspace.xml" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1410916849745" ignored="false" />
     <file path="/.gitignore" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1409966731190" ignored="false" />
     <file path="/_Layout.cshtml" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1413071184401" ignored="false" />
@@ -40,7 +428,7 @@
     <file path="/_page.scss" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1412727661848" ignored="false" />
     <file path="/Committees.html" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1413072213122" ignored="false" />
     <file path="/_table.scss" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1413072186020" ignored="false" />
-    <file path="/*.regexp" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1413078170396" ignored="false" />
+    <file path="/*.regexp" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1423193553279" ignored="false" />
     <file path="/Schedule.html" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1413072501170" ignored="false" />
     <file path="/CacheServiceTests.js" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1412383350534" ignored="false" />
     <file path="$PROJECT_DIR$/../../Sunbeam-master/Server/Web/Hub/UI/Dev/Tests/UnitTests/Services/CacheServiceTests.js" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1412383352255" ignored="false" />
@@ -57,6 +445,14 @@
     <file path="/header.html" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1413076064483" ignored="false" />
     <file path="$PROJECT_DIR$/../../Sunbeam-master/Server/Web/Hub/UI/Dev/responsive/Responsive.html" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1413079143534" ignored="false" />
     <file path="/Responsive.html" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1413079142791" ignored="false" />
+    <file path="/ColorService.js" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1422509027818" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Sunbeam/.idea/workspace.xml" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1423021700045" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Sunbeam/Server/Web/Hub/UI/Components/Header/SettingsModal/SettingsModalDirective.js" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1423021709976" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Sunbeam/Server/Web/Hub/UI/Dev/Tests/UnitTests/Services/ModalServiceTests.js" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1423021709976" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Sunbeam/Server/Web/Hub/UI/Services/Shelves/ShelfService.js" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1423021709976" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Sunbeam/Server/Web/Hub/UI/Services/Modals/ModalService.js" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1423021709976" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Sunbeam/Server/Web/Hub/UI/Components/UserActionButton/HoldButtonModal/HoldButtonModalDirective.js" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1423021709976" ignored="false" />
+    <file path="/header.js" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1423193542622" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,15 +472,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Page.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/UI/Directives/Page/Page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="34" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GenericPageController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/GenericPageController.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,16 +484,25 @@
       <file leaf-file-name="header.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/UI/Directives/header/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="26" selection-start="270" selection-end="270" vertical-scroll-proportion="-4.65">
+            <state line="6" column="26" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hotels.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Hotels.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Hotels.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="104" selection-start="630" selection-end="630" vertical-scroll-proportion="0.46675032">
+            <state line="12" column="104" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ColorService.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../WhereAreWe/WhereAreWe/Assets/app/Services/ColorService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="18" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -133,34 +529,16 @@
       <file leaf-file-name="header.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/UI/Directives/header/header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="48" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
+            <state line="8" column="31" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_table.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/sass/_table.scss">
+      <file leaf-file-name="SHCA2015WebRole.csproj" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/SHCA2015WebRole.csproj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="12" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Judges.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Judges.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="37" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Schedule.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Schedule.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="29" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+            <state line="329" column="31" selection-start="20949" selection-end="20949" vertical-scroll-proportion="0.33333334">
               <folding />
             </state>
           </provider>
@@ -184,22 +562,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Area Attractions.html" />
-        <option value="$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/BreakingNews.html" />
-        <option value="$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/info book.html" />
-        <option value="$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Show Site.html" />
         <option value="$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Committees.html" />
         <option value="$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Schedule.html" />
         <option value="$PROJECT_DIR$/SHCA2015WebRole/sass/_menu.scss" />
         <option value="$PROJECT_DIR$/SHCA2015WebRole/sass/_table.scss" />
         <option value="$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Judges.html" />
-        <option value="$PROJECT_DIR$/SHCA2015WebRole/UI/Directives/header/header.js" />
         <option value="$PROJECT_DIR$/SHCA2015WebRole/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/SHCA2015WebRole/UI/Directives/Page/Page.html" />
         <option value="$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/GenericPageController.js" />
         <option value="$PROJECT_DIR$/SHCA2015WebRole/sass/site.scss" />
         <option value="$PROJECT_DIR$/SHCA2015WebRole/UI/Directives/header/header.html" />
         <option value="$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Hotels.html" />
+        <option value="$PROJECT_DIR$/../../WhereAreWe/WhereAreWe/Assets/app/Services/ColorService.js" />
+        <option value="$PROJECT_DIR$/packages/WebApiRouteDebugger.1.0.0/content/Areas/RouteDebugger/Views/Web.config" />
+        <option value="$PROJECT_DIR$/SHCA2015WebRole/Areas/RouteDebugger/Views/Web.config" />
+        <option value="$PROJECT_DIR$/SHCA2015WebRole/UI/Directives/header/header.js" />
+        <option value="$PROJECT_DIR$/SHCA2015WebRole/SHCA2015WebRole.csproj" />
       </list>
     </option>
   </component>
@@ -688,7 +1066,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="57" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../WhereAreWe/WhereAreWe/Assets/app/Services/ColorService.js" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="69" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="709" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="709" />
@@ -703,7 +1081,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="settings" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="options.searchVisible" value="true" />
@@ -719,6 +1097,9 @@
       <recent name="C:\projects\SHCA2015\SHCA2015\SHCA2015WebRole\UI\Services" />
       <recent name="C:\projects\SHCA2015\SHCA2015\SHCA2015WebRole\UI\App" />
     </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="LAST_HOST" value="http://localhost:52362" />
   </component>
   <component name="RunManager" selected="JavaScript Debug.live edit">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -885,17 +1266,23 @@
       <created>1413076356492</created>
       <updated>1413076356492</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="hotels page update">
+      <created>1418089957998</created>
+      <updated>1418089957998</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46469247" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48177677" sideWeight="0.66104376" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24354243" sideWeight="0.6806818" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24354243" sideWeight="0.5182232" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3215909" sideWeight="0.5002636" order="1" side_tool="true" content_ui="tabs" />
@@ -904,7 +1291,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48181817" sideWeight="0.66104376" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -953,7 +1339,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Preliminary website" />
+    <option name="LAST_COMMIT_MESSAGE" value="hotels page update" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -969,6 +1355,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="dlls" />
     <MESSAGE value="Preliminary website" />
+    <MESSAGE value="hotels page update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -976,50 +1363,19 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/BreakingNews.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Committees.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="29" selection-start="109" selection-end="109" vertical-scroll-proportion="-1.55" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/sass/_menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/sass/_menu.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/sass/_siblogo.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/sass/_table.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="12" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="12" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Schedule.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="29" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="4" column="29" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Judges.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="37" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="37" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/Views/Shared/_Layout.cshtml">
@@ -1029,9 +1385,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/UI/Directives/Page/Page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="34" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="34" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/GenericPageController.js">
@@ -1048,13 +1402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/UI/Directives/header/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="48" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/sass/site.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="132" column="20" selection-start="2191" selection-end="2194" vertical-scroll-proportion="0.0">
@@ -1064,14 +1411,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/UI/Directives/header/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="26" selection-start="270" selection-end="270" vertical-scroll-proportion="-4.65">
+        <state line="6" column="26" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Hotels.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="104" selection-start="630" selection-end="630" vertical-scroll-proportion="0.46675032">
+        <state line="12" column="104" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../WhereAreWe/WhereAreWe/Assets/app/Services/ColorService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="18" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj/Release/SHCA2015WebRole/Views/Web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="738" selection-end="1334" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/WebApiRouteDebugger.1.0.0/content/Areas/RouteDebugger/Views/Web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="39" selection-end="1334" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/Areas/RouteDebugger/Views/Web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="4" selection-start="1334" selection-end="1334" vertical-scroll-proportion="0.85024154" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/UI/Directives/header/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="31" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/SHCA2015WebRole.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="329" column="31" selection-start="20949" selection-end="20949" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>

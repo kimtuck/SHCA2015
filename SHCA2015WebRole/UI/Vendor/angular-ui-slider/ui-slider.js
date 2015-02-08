@@ -1,12 +1,12 @@
-﻿/*
+﻿﻿/*
  jQuery UI Slider plugin wrapper
 */
 angular.module('ui.slider', []).value('uiSliderConfig', {}).directive('uiSlider', ['uiSliderConfig', '$timeout', function (uiSliderConfig, $timeout) {
     uiSliderConfig = uiSliderConfig || {};
     return {
         require: 'ngModel',
-        compile: function () {
-            return function (scope, elm, attrs, ngModel) {
+            compile: function () {
+                return function (scope, elm, attrs, ngModel) {
 
                 function parseNumber(n, decimals) {
                     return (decimals) ? parseFloat(n) : parseInt(n);

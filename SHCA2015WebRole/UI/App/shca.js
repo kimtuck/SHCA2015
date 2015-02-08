@@ -5,7 +5,7 @@ var Pages = [
     "Area Attractions",
     "Committees",
     "Hotels",
-    "Info Book",
+    "Documents",
     "Judges",
     "Show Site",
     "Schedule"
@@ -16,7 +16,7 @@ var PrivatePages = [
 
 var app = angular.module('app',
     // Other modules
-    ['ngRoute'],
+    ['ngRoute', 'angularFileUpload'],
     ["$routeProvider","$locationProvider",
         function ($routeProvider, $locationProvider) {
             _.each(_.union(Pages, PrivatePages),function(item) {

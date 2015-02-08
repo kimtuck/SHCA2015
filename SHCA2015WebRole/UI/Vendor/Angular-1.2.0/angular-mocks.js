@@ -2119,7 +2119,7 @@ angular.mock.clearDataCache = function() {
           injector.invoke(blockFns[i] || angular.noop, this);
           /* jshint +W040 */
         } catch (e) {
-          if(e.stack && errorForStack) e.stack +=  '\n' + errorForStack.stack;
+          //if(e.stack && errorForStack) e.stack +=  '\n' + errorForStack.stack;
           throw e;
         } finally {
           errorForStack = null;

@@ -1,0 +1,57 @@
+﻿<div>
+
+    <form name="myForm" class="bootstrap-frm" ng-show="showPassword && validPassword">
+        <fieldset>
+            <legend>Upload A Document</legend>
+
+
+            <label for="category">Category: </label>
+            <select ng-model="category">
+                <option value="">-- Select Existing Category --</option>
+                <option ng-repeat="set in DocumentsService.Documents" value="{{set.SetName}}">{{set.SetName}}</option>
+            </select>
+            <div>
+                or <input type="text" placeholder="Type new category" name="category" ng-model="category" size="48" required="" />
+                <i ng-show="myForm.category.$error.required">*required</i><br>
+            </div>
+            <label for="filename">Document Name:</label><input type="text" name="filename" ng-model="filename" size="48" required="" />
+            <i ng-show="myForm.filename.$error.required">*required</i><br>
+
+            <label for="file">Document:</label><input type="file" ng-file-select="" ng-model="file" name="file" accept="application/pdf" required="" />
+            <i ng-show="myForm.file.$error.required">*required</i>
+            <br>
+
+            <button ng-disabled="!myForm.$valid" ng-click="uploadFile(category,filename,file)">Submit</button>
+            <span class="progress" ng-show="file.progress >= 0">
+                <div style="width:{{file.progress}}%" ng-bind="file.progress + '%'" class="ng-binding"></div>
+            </span>
+            <span ng-show="file.result">Upload Successful</span>
+        </fieldset>
+    </form>
+
+
+        <div ng-repeat="set in DocumentsService.Documents">
+            <table class="documenttable">
+                <thead>
+                    <tr><th colspan="3">{{set.SetName}}</th></tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="document in set.Documents">
+                        <td>{{document.Name}}</td>
+                        <td>{{DocumentsService.TimeString(document.DateUploaded)}}</td>
+                        <td><button ng-click="view(document)">View</button>
+                            <span ng-show="showPassword && validPassword">&nbsp;<button ng-click="delete(document)">Delete</button></span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div>
+            <input type="checkbox" ng-model="showPassword" />Manage Documents
+            <div ng-show="showPassword">Enter password, press return
+                <input ng-model="password" ng-blur="checkPassword()" ng-keypress="($event.which === 13)?checkPassword():0" />
+            </div>
+            <div ng-show="showPassword && validPassword">Enabled</div>
+        </div>
+    </div>
