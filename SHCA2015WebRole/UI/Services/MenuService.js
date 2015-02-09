@@ -2,8 +2,10 @@ app.factory('MenuService', ["$filter",
     function ($filter) {
          var service = function () {
             var self = this;
-             var MenuItems = _.map(Pages, function (page) {
-                 return { label: page, icon: 'icon-' + ($filter('lowercase')(page)).replace(' ','-'), value :'/' + page.replace(' ','') }
+            var MenuItems = _.map(Pages, function (page) {
+                var icon = ($filter('lowercase')(page)).replace(/[ \/]/g, '-');
+                var pg = page.replace(/\/.*/,'').replace(' ','');
+                 return { label: page, icon: 'icon-' + icon, value :'/' + pg}
 
              });
             return {

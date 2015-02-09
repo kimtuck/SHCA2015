@@ -13,7 +13,7 @@
   font-style: normal;
 }
 /* line 4, ../sass/FontAwesome/assets/stylesheets/_core.scss */
-.fa, .icon-home, .icon-hotels, .icon-show-site, .icon-area-attractions, .icon-area, .icon-paw, #page .fancy-ul li:before, .icon-schedule, .icon-committees, .icon-judges, .icon-info-book {
+.fa, .icon-home, .icon-hotels-travel, .icon-show-site, .icon-area-attractions, .icon-area, .icon-paw, #page .fancy-ul li:before, .icon-schedule, .icon-committees, .icon-judges, .icon-documents {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -98,11 +98,11 @@
 }
 
 /* line 14, ../sass/FontAwesome/assets/stylesheets/_bordered-pulled.scss */
-.fa.pull-left, .pull-left.icon-home, .pull-left.icon-hotels, .pull-left.icon-show-site, .pull-left.icon-area-attractions, .pull-left.icon-area, .pull-left.icon-paw, #page .fancy-ul li.pull-left:before, .pull-left.icon-schedule, .pull-left.icon-committees, .pull-left.icon-judges, .pull-left.icon-info-book {
+.fa.pull-left, .pull-left.icon-home, .pull-left.icon-hotels-travel, .pull-left.icon-show-site, .pull-left.icon-area-attractions, .pull-left.icon-area, .pull-left.icon-paw, #page .fancy-ul li.pull-left:before, .pull-left.icon-schedule, .pull-left.icon-committees, .pull-left.icon-judges, .pull-left.icon-documents {
   margin-right: .3em;
 }
 /* line 15, ../sass/FontAwesome/assets/stylesheets/_bordered-pulled.scss */
-.fa.pull-right, .pull-right.icon-home, .pull-right.icon-hotels, .pull-right.icon-show-site, .pull-right.icon-area-attractions, .pull-right.icon-area, .pull-right.icon-paw, #page .fancy-ul li.pull-right:before, .pull-right.icon-schedule, .pull-right.icon-committees, .pull-right.icon-judges, .pull-right.icon-info-book {
+.fa.pull-right, .pull-right.icon-home, .pull-right.icon-hotels-travel, .pull-right.icon-show-site, .pull-right.icon-area-attractions, .pull-right.icon-area, .pull-right.icon-paw, #page .fancy-ul li.pull-right:before, .pull-right.icon-schedule, .pull-right.icon-committees, .pull-right.icon-judges, .pull-right.icon-documents {
   margin-left: .3em;
 }
 
@@ -650,7 +650,7 @@
 }
 
 /* line 97, ../sass/FontAwesome/assets/stylesheets/_icons.scss */
-.fa-info-circle:before, .icon-info-book:before {
+.fa-info-circle:before, .icon-documents:before {
   content: "";
 }
 
@@ -1319,7 +1319,7 @@
 }
 
 /* line 246, ../sass/FontAwesome/assets/stylesheets/_icons.scss */
-.fa-suitcase:before, .icon-hotels:before {
+.fa-suitcase:before, .icon-hotels-travel:before {
   content: "";
 }
 
@@ -3012,20 +3012,25 @@ body {
   width: 175px;
   height: 175px;
 }
+/* line 176, ../sass/site.scss */
+.sib-logo-header img {
+  width: 175px;
+  height: 175px;
+}
 
-/* line 178, ../sass/site.scss */
+/* line 182, ../sass/site.scss */
 .shcalogo img {
   width: 175px;
   height: 175px;
 }
 
-/* line 183, ../sass/site.scss */
+/* line 187, ../sass/site.scss */
 .container {
   width: auto;
 }
 
 /* Set padding to keep content from hitting the edges */
-/* line 190, ../sass/site.scss */
+/* line 194, ../sass/site.scss */
 .breaking-news {
   display: block;
   margin-left: auto;
@@ -3040,25 +3045,25 @@ body {
   padding: 0 1em 0 1em;
   text-decoration: none;
 }
-/* line 203, ../sass/site.scss */
+/* line 207, ../sass/site.scss */
 .breaking-news a {
   display: inline-block;
   margin-top: 0.3em;
 }
-/* line 207, ../sass/site.scss */
+/* line 211, ../sass/site.scss */
 .breaking-news a:hover {
   color: red;
   text-decoration: none;
 }
 
-/* line 214, ../sass/site.scss */
+/* line 218, ../sass/site.scss */
 .SibLogo.homelogo {
   width: 600px;
   padding-left: 150px;
   padding-top: 40px;
 }
 
-/* line 220, ../sass/site.scss */
+/* line 224, ../sass/site.scss */
 .home-header, header {
   position: absolute;
   left: 0;
@@ -3068,12 +3073,12 @@ body {
   margin-top: 20px;
   margin-bottom: 10px;
 }
-/* line 226, ../sass/site.scss */
+/* line 230, ../sass/site.scss */
 .home-header .shcalogo img, header .shcalogo img {
   margin-top: 0px;
   position: absolute;
 }
-/* line 232, ../sass/site.scss */
+/* line 236, ../sass/site.scss */
 .home-header .dateinfo .title, header .dateinfo .title {
   font-family: planet-benson-2;
   text-align: center;
@@ -3082,14 +3087,14 @@ body {
   font-size: 1.0em;
   margin-bottom: 0.4em;
 }
-/* line 238, ../sass/site.scss */
+/* line 242, ../sass/site.scss */
 .home-header .dateinfo .date, header .dateinfo .date {
   font-size: 0.8em;
   margin-bottom: 0.6em;
   text-align: center;
   color: #1691be;
 }
-/* line 246, ../sass/site.scss */
+/* line 250, ../sass/site.scss */
 .home-header .dateinfo .address span, header .dateinfo .address span {
   display: block;
   text-align: center;
@@ -3097,13 +3102,13 @@ body {
   line-height: 1.2em;
 }
 
-/* line 256, ../sass/site.scss */
+/* line 260, ../sass/site.scss */
 .judges {
   position: absolute;
   left: 0;
   right: 0;
 }
-/* line 258, ../sass/site.scss */
+/* line 262, ../sass/site.scss */
 .judges .fancy-ul {
   max-width: 20em;
   margin: 0 auto;
@@ -3111,20 +3116,20 @@ body {
   font-weight: bold;
 }
 
-/* line 271, ../sass/site.scss */
+/* line 275, ../sass/site.scss */
 .extra-indent {
   margin-left: 4.0em;
 }
 
 @media screen and (max-width: 1000px) {
-  /* line 277, ../sass/site.scss */
+  /* line 281, ../sass/site.scss */
   .shcalogo {
     display: none;
   }
 }
 /* FORM */
 /* #### bootstrap Form #### */
-/* line 284, ../sass/site.scss */
+/* line 288, ../sass/site.scss */
 .bootstrap-frm {
   margin-left: auto;
   margin-right: auto;
@@ -3140,7 +3145,7 @@ body {
   -moz-border-radius: 5px;
 }
 
-/* line 299, ../sass/site.scss */
+/* line 303, ../sass/site.scss */
 .bootstrap-frm h1 {
   font: 25px "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0px 0px 10px 40px;
@@ -3150,19 +3155,19 @@ body {
   color: #888;
 }
 
-/* line 307, ../sass/site.scss */
+/* line 311, ../sass/site.scss */
 .bootstrap-frm h1 > span {
   display: block;
   font-size: 11px;
 }
 
-/* line 311, ../sass/site.scss */
+/* line 315, ../sass/site.scss */
 .bootstrap-frm label {
   display: block;
   margin: 0px 0px 5px;
 }
 
-/* line 315, ../sass/site.scss */
+/* line 319, ../sass/site.scss */
 .bootstrap-frm label > span {
   float: left;
   width: 20%;
@@ -3174,7 +3179,7 @@ body {
   font-weight: bold;
 }
 
-/* line 325, ../sass/site.scss */
+/* line 329, ../sass/site.scss */
 .bootstrap-frm input[type="text"], .bootstrap-frm input[type="email"], .bootstrap-frm textarea, .bootstrap-frm select {
   border: 1px solid #CCC;
   color: #888;
@@ -3194,7 +3199,7 @@ body {
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 
-/* line 343, ../sass/site.scss */
+/* line 347, ../sass/site.scss */
 .bootstrap-frm select {
   text-indent: 0.01px;
   text-overflow: '';
@@ -3203,14 +3208,14 @@ body {
   line-height: 15px;
 }
 
-/* line 355, ../sass/site.scss */
+/* line 359, ../sass/site.scss */
 .bootstrap-frm textarea {
   height: 100px;
   padding: 5px 0px 0px 5px;
   width: 70%;
 }
 
-/* line 360, ../sass/site.scss */
+/* line 364, ../sass/site.scss */
 .bootstrap-frm .button {
   background: #FFF;
   border: 1px solid #CCC;
@@ -3219,7 +3224,7 @@ body {
   border-radius: 4px;
 }
 
-/* line 367, ../sass/site.scss */
+/* line 371, ../sass/site.scss */
 .bootstrap-frm .button:hover {
   color: #333;
   background-color: #EBEBEB;

@@ -4,7 +4,7 @@ var Pages = [
     "Home",
     "Area Attractions",
     "Committees",
-    "Hotels",
+    "Hotels/Travel",
     "Documents",
     "Judges",
     "Show Site",
@@ -20,7 +20,9 @@ var app = angular.module('app',
     ["$routeProvider","$locationProvider",
         function ($routeProvider, $locationProvider) {
             _.each(_.union(Pages, PrivatePages),function(item) {
-                var route = { path: ("/" + item).replace(' ',''),
+                item = item.replace(/[/][^/]*$/, '');
+                var route = {
+                    path: ("/" + item).replace(' ', ''),
                     route: { templateUrl: '/UI/Pages/' + item + ".html",
                         controller: 'GenericPageController' } };
                 $routeProvider.when(route.path, route.route);

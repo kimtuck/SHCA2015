@@ -7,7 +7,8 @@ app.factory('RouteService', ['$routeProvider','MenuService',
 
             var pages = [];
 
-            _.each(_.union(MenuService.Pages, MenuService.PrivatePages),function(item) {
+            _.each(_.union(MenuService.Pages, MenuService.PrivatePages), function (item) {
+                item = item.replace(/[/][^/]*$/, '');
                 var route = { path: "/" + item,
                               route: { templateUrl: '/UI/Pages/' + item + "/" + item + ".html",
                                         controller: 'GenericPageController' } };

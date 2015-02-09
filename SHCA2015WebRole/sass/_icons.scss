@@ -12,7 +12,7 @@
   @extend .fa-suitcase;
 }
 
-.icon-hotels {
+.icon-hotels-travel {
   @include icon-hotel;
 }
 
@@ -67,6 +67,6 @@
   @extend .fa;
   @extend .fa-info-circle;
 }
-.icon-info-book {
+.icon-documents {
   @include icon-info-book;
 }

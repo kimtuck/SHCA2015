@@ -173,6 +173,10 @@ $logo-size: 175px;
   right: 0;
   width: $logo-size;
   height: $logo-size;
+  img {
+      width: $logo-size;
+      height: $logo-size;
+  }
 }
 
 .shcalogo img {
