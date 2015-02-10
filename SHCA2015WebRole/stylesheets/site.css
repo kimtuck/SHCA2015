@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*!
  *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -2940,7 +2940,7 @@ body {
 
 /* line 104, ../sass/site.scss */
 body {
-  font-size: 1em !important;
+  font-size: 18px !important;
 }
 
 /* line 110, ../sass/site.scss */
@@ -3032,11 +3032,8 @@ body {
 /* Set padding to keep content from hitting the edges */
 /* line 194, ../sass/site.scss */
 .breaking-news {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 4em;
-  height: 1.3em;
+  display: inline-block;
+  margin-left: 30%;
   margin-bottom: 20px;
   background-color: white;
   border-radius: 0.5em;

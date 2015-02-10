@@ -4,7 +4,7 @@
             var self = this;
             var documents = [];
 
-            var hashedPass = 965293703;
+            var hashedPass = -405971577;
 
             var Hash = function (s) {
                 var hash = 0, i, chr, len;
