@@ -4,25 +4,13 @@
     <bookmark url="file://$PROJECT_DIR$/../../WhereToEat/WhereToEat/Material.html" line="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06d5b400-8f40-4e29-b941-e0d7338a50b9" name="Default" comment="hotels page update">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Area Attractions.html" afterPath="$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Area Attractions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/BreakingNews.html" afterPath="$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/BreakingNews.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Committees.html" afterPath="$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Committees.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/UI/Directives/Documents/Documents.html" afterPath="$PROJECT_DIR$/SHCA2015WebRole/UI/Directives/Documents/Documents.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Documents.html" afterPath="$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Documents.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/SHCA2015WebRole.csproj" afterPath="$PROJECT_DIR$/SHCA2015WebRole/SHCA2015WebRole.csproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceConfiguration.Cloud.cscfg" afterPath="$PROJECT_DIR$/ServiceConfiguration.Cloud.cscfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceConfiguration.Local.cscfg" afterPath="$PROJECT_DIR$/ServiceConfiguration.Local.cscfg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServiceDefinition.csdef" afterPath="$PROJECT_DIR$/ServiceDefinition.csdef" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/sass/_table.scss" afterPath="$PROJECT_DIR$/SHCA2015WebRole/sass/_table.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/sass/site.css.map" afterPath="$PROJECT_DIR$/SHCA2015WebRole/sass/site.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/stylesheets/site.css" afterPath="$PROJECT_DIR$/SHCA2015WebRole/stylesheets/site.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/sass/site.scss" afterPath="$PROJECT_DIR$/SHCA2015WebRole/sass/site.scss" />
+    <list default="true" id="06d5b400-8f40-4e29-b941-e0d7338a50b9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Schedule.html" afterPath="$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Schedule.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SHCA2015.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1432949559125" ignored="false" />
+    <file path="/Dummy.txt" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1432949708326" ignored="false" />
     <file path="$PROJECT_DIR$/../../mdc-protractor/.idea/workspace.xml" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1410916849745" ignored="false" />
     <file path="/.gitignore" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1409966731190" ignored="false" />
     <file path="/_Layout.cshtml" changelist="06d5b400-8f40-4e29-b941-e0d7338a50b9" time="1413071184401" ignored="false" />
@@ -129,10 +117,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebApiStartup.cs" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="WebApiStartup.cs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/App_Start/WebApiStartup.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/stylesheets/site.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Schedule.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Schedule.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="29" selection-start="1301" selection-end="1301" vertical-scroll-proportion="0.71115535">
               <folding />
             </state>
           </provider>
@@ -156,7 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Judges.html" />
         <option value="$PROJECT_DIR$/SHCA2015WebRole/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/SHCA2015WebRole/UI/Directives/Page/Page.html" />
         <option value="$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/GenericPageController.js" />
@@ -172,6 +177,7 @@
         <option value="$PROJECT_DIR$/../../WhereToEat/WhereToEat/FireBaseDemo.html" />
         <option value="$PROJECT_DIR$/../../WhereToEat/WhereToEat/Material.html" />
         <option value="$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Committees.html" />
+        <option value="$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Schedule.html" />
       </list>
     </option>
   </component>
@@ -245,7 +251,47 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="sass">
+            <PATH_ELEMENT USER_OBJECT="UI">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="SHCA2015">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="SHCA2015WebRole">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="UI">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Pages">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="SHCA2015">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="SHCA2015WebRole">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="stylesheets">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -730,7 +776,11 @@
       <created>1423537088750</created>
       <updated>1423537088750</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="updates">
+      <created>1432949722342</created>
+      <updated>1432949722342</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -741,7 +791,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33262375" sideWeight="0.68139535" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33262375" sideWeight="0.68139535" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32093024" sideWeight="0.5002636" order="1" side_tool="true" content_ui="tabs" />
@@ -799,7 +849,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="hotels page update" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -816,6 +866,7 @@
     <MESSAGE value="dlls" />
     <MESSAGE value="Preliminary website" />
     <MESSAGE value="hotels page update" />
+    <MESSAGE value="updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -823,16 +874,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../WhereAreWe/WhereAreWe/Assets/app/Services/ColorService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="18" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/obj/Release/SHCA2015WebRole/Views/Web.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="738" selection-end="1334" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/packages/WebApiRouteDebugger.1.0.0/content/Areas/RouteDebugger/Views/Web.config">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="39" selection-end="1334" vertical-scroll-proportion="0.0" />
@@ -865,7 +906,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Committees.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="52" selection-start="586" selection-end="586" vertical-scroll-proportion="0.5244216" />
+        <state line="12" column="52" selection-start="586" selection-end="586" vertical-scroll-proportion="0.5244216">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/status.out">
@@ -909,6 +952,20 @@
     <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/App_Start/WebApiStartup.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/stylesheets/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SHCA2015WebRole/UI/Pages/Schedule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="29" selection-start="1301" selection-end="1301" vertical-scroll-proportion="0.71115535">
           <folding />
         </state>
       </provider>
