@@ -1,4 +1,4 @@
-﻿@charset "UTF-8";
+@charset "UTF-8";
 /*!
  *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -2853,7 +2853,7 @@ div, button {
 /* line 69, ../sass/_table.scss */
 .documenttable {
   font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-  font-size: 12px;
+  font-size: 0.6em;
   margin: 0 45px 30px 45px;
   width: 480px;
   border-collapse: collapse;
@@ -2861,21 +2861,26 @@ div, button {
 }
 /* line 76, ../sass/_table.scss */
 .documenttable th {
-  font-size: 14px;
+  font-size: 1.5em;
   font-weight: normal;
   color: #039;
-  padding: 10px 8px;
+  padding: 0px 8px;
   border-bottom: 2px solid #6678b1;
 }
 /* line 83, ../sass/_table.scss */
 .documenttable td {
   border-bottom: 1px solid #ccc !important;
   color: #669;
-  padding: 6px 8px;
+  padding: 0px 8px;
 }
 /* line 88, ../sass/_table.scss */
 .documenttable tbody tr:hover td {
   color: #009;
+}
+
+/* line 93, ../sass/_table.scss */
+.manage {
+  font-size: 0.5em;
 }
 
 @font-face {
@@ -2891,59 +2896,59 @@ div, button {
   src: url("http://fonts.googleapis.com/css?family=Kameron:400,700");
 }
 /* Set width on the form input elements since they're 100% wide by default */
-/* line 61, ../sass/site.scss */
+/* line 62, ../sass/site.scss */
 input,
 select,
 textarea {
   max-width: 280px;
 }
 
-/* line 67, ../sass/site.scss */
+/* line 68, ../sass/site.scss */
 ul, ol {
   margin: 0;
 }
 
-/* line 71, ../sass/site.scss */
+/* line 72, ../sass/site.scss */
 img {
   vertical-align: top;
 }
 
-/* line 75, ../sass/site.scss */
+/* line 76, ../sass/site.scss */
 td {
   vertical-align: top;
 }
 
-/* line 78, ../sass/site.scss */
+/* line 79, ../sass/site.scss */
 h1 {
   font-family: planet-benson-2;
   text-align: center;
 }
 
-/* line 83, ../sass/site.scss */
+/* line 84, ../sass/site.scss */
 h2 {
   color: black;
   font-size: 0.9em;
   line-height: 1.2em;
 }
 
-/* line 89, ../sass/site.scss */
+/* line 90, ../sass/site.scss */
 h3 {
   font-size: 0.8em;
 }
 
-/* line 97, ../sass/site.scss */
+/* line 98, ../sass/site.scss */
 body {
   width: 80%;
   margin: 0 auto;
   background-color: #dfd1bf;
 }
 
-/* line 104, ../sass/site.scss */
+/* line 105, ../sass/site.scss */
 body {
   font-size: 18px !important;
 }
 
-/* line 110, ../sass/site.scss */
+/* line 111, ../sass/site.scss */
 #page {
   font-size: 1.3em;
   position: relative;
@@ -2952,88 +2957,91 @@ body {
   position: relative;
   min-height: 400px;
 }
-/* line 118, ../sass/site.scss */
+/* line 119, ../sass/site.scss */
 #page #page-body {
   position: relative;
 }
-/* line 120, ../sass/site.scss */
+/* line 121, ../sass/site.scss */
 #page #page-body table td:nth-child(1) {
   z-index: 300;
 }
-/* line 125, ../sass/site.scss */
+/* line 126, ../sass/site.scss */
 #page #menu {
   float: left;
   z-index: 300;
 }
-/* line 135, ../sass/site.scss */
+/* line 136, ../sass/site.scss */
 #page .fancy-ul ul {
   margin: 0.5em 0 0.5em 3em;
   list-style-type: none;
 }
-/* line 139, ../sass/site.scss */
+/* line 140, ../sass/site.scss */
 #page .fancy-ul li {
   display: block;
   margin-bottom: 0.8em;
 }
-/* line 143, ../sass/site.scss */
+/* line 144, ../sass/site.scss */
 #page .fancy-ul li:before {
   margin: 0 0.5em 0 -1.5em;
   color: #696838;
 }
-/* line 151, ../sass/site.scss */
+/* line 152, ../sass/site.scss */
 #page .hotels address {
   display: inline-block;
   text-align: center;
 }
-/* line 156, ../sass/site.scss */
+/* line 157, ../sass/site.scss */
 #page .hotels img {
   margin-bottom: 45px;
 }
-/* line 158, ../sass/site.scss */
+/* line 159, ../sass/site.scss */
 #page .hotels .hotel-details ul {
   margin-left: 30px;
   margin-bottom: 1em;
 }
-/* line 159, ../sass/site.scss */
+/* line 160, ../sass/site.scss */
 #page .hotels .hotel-details div {
   margin-bottom: 1em;
 }
 
-/* line 167, ../sass/site.scss */
+/* line 168, ../sass/site.scss */
 .SibLogo {
   width: 200px;
   margin: 0 auto;
 }
 
-/* line 171, ../sass/site.scss */
+/* line 172, ../sass/site.scss */
 .sib-logo-header {
   position: absolute;
   right: 0;
   width: 175px;
   height: 175px;
 }
-/* line 176, ../sass/site.scss */
+/* line 177, ../sass/site.scss */
 .sib-logo-header img {
   width: 175px;
   height: 175px;
 }
 
-/* line 182, ../sass/site.scss */
+/* line 183, ../sass/site.scss */
 .shcalogo img {
   width: 175px;
   height: 175px;
 }
 
-/* line 187, ../sass/site.scss */
+/* line 188, ../sass/site.scss */
 .container {
   width: auto;
 }
 
 /* Set padding to keep content from hitting the edges */
-/* line 194, ../sass/site.scss */
+/* line 195, ../sass/site.scss */
 .breaking-news {
-  display: inline-block;
-  margin-left: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 4em;
+  height: 1.3em;
   margin-bottom: 20px;
   background-color: white;
   border-radius: 0.5em;
@@ -3042,25 +3050,25 @@ body {
   padding: 0 1em 0 1em;
   text-decoration: none;
 }
-/* line 207, ../sass/site.scss */
+/* line 208, ../sass/site.scss */
 .breaking-news a {
   display: inline-block;
   margin-top: 0.3em;
 }
-/* line 211, ../sass/site.scss */
+/* line 212, ../sass/site.scss */
 .breaking-news a:hover {
   color: red;
   text-decoration: none;
 }
 
-/* line 218, ../sass/site.scss */
+/* line 219, ../sass/site.scss */
 .SibLogo.homelogo {
   width: 600px;
   padding-left: 150px;
   padding-top: 40px;
 }
 
-/* line 224, ../sass/site.scss */
+/* line 225, ../sass/site.scss */
 .home-header, header {
   position: absolute;
   left: 0;
@@ -3070,12 +3078,12 @@ body {
   margin-top: 20px;
   margin-bottom: 10px;
 }
-/* line 230, ../sass/site.scss */
+/* line 231, ../sass/site.scss */
 .home-header .shcalogo img, header .shcalogo img {
   margin-top: 0px;
   position: absolute;
 }
-/* line 236, ../sass/site.scss */
+/* line 237, ../sass/site.scss */
 .home-header .dateinfo .title, header .dateinfo .title {
   font-family: planet-benson-2;
   text-align: center;
@@ -3084,14 +3092,14 @@ body {
   font-size: 1.0em;
   margin-bottom: 0.4em;
 }
-/* line 242, ../sass/site.scss */
+/* line 243, ../sass/site.scss */
 .home-header .dateinfo .date, header .dateinfo .date {
   font-size: 0.8em;
   margin-bottom: 0.6em;
   text-align: center;
   color: #1691be;
 }
-/* line 250, ../sass/site.scss */
+/* line 251, ../sass/site.scss */
 .home-header .dateinfo .address span, header .dateinfo .address span {
   display: block;
   text-align: center;
@@ -3099,13 +3107,13 @@ body {
   line-height: 1.2em;
 }
 
-/* line 260, ../sass/site.scss */
+/* line 261, ../sass/site.scss */
 .judges {
   position: absolute;
   left: 0;
   right: 0;
 }
-/* line 262, ../sass/site.scss */
+/* line 263, ../sass/site.scss */
 .judges .fancy-ul {
   max-width: 20em;
   margin: 0 auto;
@@ -3113,20 +3121,20 @@ body {
   font-weight: bold;
 }
 
-/* line 275, ../sass/site.scss */
+/* line 276, ../sass/site.scss */
 .extra-indent {
   margin-left: 4.0em;
 }
 
 @media screen and (max-width: 1000px) {
-  /* line 281, ../sass/site.scss */
+  /* line 282, ../sass/site.scss */
   .shcalogo {
     display: none;
   }
 }
 /* FORM */
 /* #### bootstrap Form #### */
-/* line 288, ../sass/site.scss */
+/* line 289, ../sass/site.scss */
 .bootstrap-frm {
   margin-left: auto;
   margin-right: auto;
@@ -3142,7 +3150,7 @@ body {
   -moz-border-radius: 5px;
 }
 
-/* line 303, ../sass/site.scss */
+/* line 304, ../sass/site.scss */
 .bootstrap-frm h1 {
   font: 25px "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0px 0px 10px 40px;
@@ -3152,19 +3160,19 @@ body {
   color: #888;
 }
 
-/* line 311, ../sass/site.scss */
+/* line 312, ../sass/site.scss */
 .bootstrap-frm h1 > span {
   display: block;
   font-size: 11px;
 }
 
-/* line 315, ../sass/site.scss */
+/* line 316, ../sass/site.scss */
 .bootstrap-frm label {
   display: block;
   margin: 0px 0px 5px;
 }
 
-/* line 319, ../sass/site.scss */
+/* line 320, ../sass/site.scss */
 .bootstrap-frm label > span {
   float: left;
   width: 20%;
@@ -3176,7 +3184,7 @@ body {
   font-weight: bold;
 }
 
-/* line 329, ../sass/site.scss */
+/* line 330, ../sass/site.scss */
 .bootstrap-frm input[type="text"], .bootstrap-frm input[type="email"], .bootstrap-frm textarea, .bootstrap-frm select {
   border: 1px solid #CCC;
   color: #888;
@@ -3196,7 +3204,7 @@ body {
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 
-/* line 347, ../sass/site.scss */
+/* line 348, ../sass/site.scss */
 .bootstrap-frm select {
   text-indent: 0.01px;
   text-overflow: '';
@@ -3205,14 +3213,14 @@ body {
   line-height: 15px;
 }
 
-/* line 359, ../sass/site.scss */
+/* line 360, ../sass/site.scss */
 .bootstrap-frm textarea {
   height: 100px;
   padding: 5px 0px 0px 5px;
   width: 70%;
 }
 
-/* line 364, ../sass/site.scss */
+/* line 365, ../sass/site.scss */
 .bootstrap-frm .button {
   background: #FFF;
   border: 1px solid #CCC;
@@ -3221,7 +3229,7 @@ body {
   border-radius: 4px;
 }
 
-/* line 371, ../sass/site.scss */
+/* line 372, ../sass/site.scss */
 .bootstrap-frm .button:hover {
   color: #333;
   background-color: #EBEBEB;

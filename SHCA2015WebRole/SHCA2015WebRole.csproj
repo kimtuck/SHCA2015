@@ -271,7 +271,6 @@
     <Content Include="sass\_menu.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="sass\site.scss" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
@@ -279,6 +278,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Areas\RouteDebugger\Views\Web.config" />
     <Content Include="Areas\RouteDebugger\Views\RouteDebugger\Index.cshtml" />
+    <Content Include="sass\site.scss" />
     <None Include="Scripts\jquery-2.1.3.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

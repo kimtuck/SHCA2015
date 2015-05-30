@@ -48,7 +48,9 @@
         </div>
 
         <div>
-            <input type="checkbox" ng-model="showPassword" />Manage Documents
+            <span class="manage">
+                <input type="checkbox" ng-model="showPassword" />Manage Documents
+            </span>
             <div ng-show="showPassword">Enter password, press return
                 <input ng-model="password" ng-blur="checkPassword()" ng-keypress="($event.which === 13)?checkPassword():0" />
             </div>
